@@ -1,4 +1,5 @@
 const tags = require('./props')
+const mappings = require('./mappings_summary')
 
 function add (d, a, b, c) {
   if (!(a in d)) { d[a] = {} }
@@ -12,21 +13,11 @@ function pad (object) {
     .map(prop => prop.toString().length))
 }
 
-function filter (duplicates) {
-  for (let prop1 in duplicates) {
-    if (Object.keys(duplicates[prop1]).length === 1) {
-      delete duplicates[prop1]
-    }
-  }
-}
-
 function log (duplicates) {
-  filter(duplicates)
-
   const pad1 = pad(duplicates)
   const pad2 = pad(Object.assign({}, ...Object.values(duplicates)))
 
-  for (let prop1 in duplicates) {
+  for (let prop1 of Object.keys(duplicates).sort()) {
     const object1 = duplicates[prop1]
 
     let i = 0
@@ -35,7 +26,7 @@ function log (duplicates) {
       console.log([
         (i++ ? '' : prop1).padEnd(pad1, ' '),
         prop2.padEnd(pad2, ' '),
-        object2.join(', ')
+        object2.sort().join(', ')
       ].join(' '))
     }
 
@@ -52,7 +43,8 @@ for (let tag in tags) {
     const mapping = props[prop]
 
     add(risDuplicates, prop, mapping, tag)
-    add(cslDuplicates, mapping, prop, tag)
+    console.log(prop in mappings[tag], tag, prop)
+    mappings[tag][prop].forEach(type => add(cslDuplicates, mapping, type.split(' ').pop(), tag))
   }
 }
 
@@ -60,11 +52,29 @@ console.log(`
 RIS DUPLICATES
 ==============`)
 
+for (let prop in risDuplicates) {
+  if (Object.keys(risDuplicates[prop]).length === 1) {
+    delete risDuplicates[prop]
+  }
+}
 log(risDuplicates)
 
 console.log(`
 CSL DUPLICATES
 ==============`)
 
+for (let mapping in cslDuplicates) {
+  for (let type in cslDuplicates[mapping]) {
+    cslDuplicates[mapping][type] = cslDuplicates[mapping][type].filter((v, i, a) => a.indexOf(v) === i)
+
+    if (cslDuplicates[mapping][type].length === 1) {
+      delete cslDuplicates[mapping][type]
+    }
+  }
+
+  if (Object.keys(cslDuplicates[mapping]).length === 0) {
+    delete cslDuplicates[mapping]
+  }
+}
 delete cslDuplicates.false
 log(cslDuplicates)

@@ -8,7 +8,7 @@ const DESC_TO_CSL = {
   AD: {
     'Author Address': false,
     'Editor Address': false,
-    'Inventor Adress': false,
+    'Inventor Address': false,
   },
 
   AN: {
@@ -100,7 +100,7 @@ const DESC_TO_CSL = {
   L4: {
     Figure: false,
     URL: 'URL',
-    'File Attachme/nts': false
+    'File Attachments': false
   },
 
   LA: {
@@ -328,7 +328,7 @@ const DESC_TO_CSL = {
     'Study Number': 'number',
     'Document Number': 'number',
     Version: 'version',
-    'Amount Recieved': false,
+    'Amount Received': false,
     'Session Number': 'number',
     Frequency: false,
     'Manuscript Number': 'number',
@@ -420,7 +420,7 @@ const DESC_TO_CSL = {
     'Date Cited': false,
     'Custom 2': false,
     'Congress Number': false,
-    'Contact Adress': false,
+    'Contact Address': false,
     PMCID: 'PMCID',
     Area: false,
     'Form of Composition': false,
