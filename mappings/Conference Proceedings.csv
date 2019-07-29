@@ -1,0 +1,43 @@
+TY  -,`CONF`
+A2  -,Editor
+A3  -,Series Editor
+A4  -,Sponsor
+AB  -,Abstract
+AD  -,Author Address
+AN  -,Accession Number
+AU  -,Author
+C1  -,Place Published
+C2  -,Year Published
+C3  - ,Proceedings Title
+C5  -,Packaging Method
+CA  -,Caption
+CN  -,Call Number
+CY  -,Conference Location
+DA  -,Date
+DB  -,Name of Database
+DO  -,DOI
+DP  -,Database Provider
+ET  -,Edition
+KW  -,Keywords
+L1  -,File Attachments
+L4  -,Figure
+LA  -,Language
+LB  -,Label
+M1  - ,Issue
+N1  -,Notes
+NV  -,Number of Volumes
+PB  -,Publisher
+PY  -,Year of Conference
+RN  -,Research Notes
+SN  -,ISBN
+SP  -,Pages
+ST  -,Short Title
+T2  -,Conference Name
+T3  -,Series Title
+TA  -,Translated Author
+TI  -,Title
+TT  -,Translated Title
+UR  -,URL
+VL  -,Volume
+Y2  -,Access Date
+ER  -,{IGNORE}

@@ -1,0 +1,41 @@
+TY  , DATA
+A2  , Producer
+A4  , Funding Agency
+AB  , Abstract
+AD  , Author Address
+AN  , Accession Number
+AU  , Investigators
+C1  , Time Period
+C2  , Unit of Observation
+C3  , Data Type
+C4  , Dataset(s)
+CA  , Caption
+CN  , Call Number
+CY  , City
+DA  , Date of Collection
+DB  , Name of Database
+DO  , DOI
+DP  , Database Provider
+ET  , Version
+J2  , Abbreviation
+KW  , Keywords
+L1  , File Attachments
+L4  , Figure
+LA  , Language
+LB  , Label
+N1  , Notes
+NV  , Study Number
+OP  , Version History
+PB  , Distributor
+PY  , Year
+RI  , Geographic Coverage
+RN  , Research Notes
+SE  , Original Release Date
+SN  , ISSN
+ST  , Short Title
+T3  , Series Title
+TA  , Translated Author
+TI  , Title
+TT  , Translated Title
+UR  , URL
+Y2  , Access Date

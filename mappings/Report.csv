@@ -1,0 +1,43 @@
+TY  -,`RPRT`
+A2  -,Series Editor
+A3  -,Publisher
+A4  -,Department/Division
+AB  -,Abstract
+AD  -,Author Address
+AN  -,Accession Number
+AU  -,Author
+CA  -,Caption
+CN  -,Call Number
+CY  -,City
+C6  - ,Issue
+DA  -,Date
+DB  -,Name of Database
+DO  -,DOI
+DP  -,Database Provider
+ET  -,Edition
+J2  -,Alternate Title
+KW  -,Keywords
+L1  -,File Attachments
+L4  -,Figure
+LA  -,Language
+LB  -,Label
+M1  -,Document Number
+M3  -,Type
+N1  -,Notes
+NV  - ,Series Volume
+OP  - ,Contents
+PB  -,Institution
+PY  -,Year
+RN  -,Research Notes
+RP  -,Notes
+SN  -,Report Number
+SP  -,Pages
+ST  -,Short Title
+T2  - ,Series Title
+TA  -,Translated Author
+TI  -,Title
+TT  -,Translated Title
+UR  -,URL
+VL  -,Volume
+Y2  -,Access Date
+ER  -,{IGNORE}

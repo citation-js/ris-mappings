@@ -1,0 +1,42 @@
+TY  -,`PAMP`
+A2  -,Institution
+A4  - ,Translator
+AB  -,Abstract
+AD  -,Author Address
+AN  -,Accession Number
+AU  -,Author
+C5  -,Packaging Method
+CA  -,Caption
+CN  - ,Call Number
+CY  -,City
+DA  -,Date
+DB  -,Name of Database
+DO  -,DOI
+DP  -,Database Provider
+ET  -,Edition
+J2  -,Abbreviation
+KW  -,Keywords
+L1  -,File Attachments
+L4  -,Figure
+LA  -,Language
+LB  -,Label
+M1  -,Series Volume
+M3  -,Type of Work
+N1  -,Notes
+OP  -,Original Publication
+PB  -,Publisher
+PY  -,Year
+RN  -,Research Notes
+RP  -,Reprint Edition
+M2  -,Number of Pages
+SN  -,ISBN
+SP  -,Pages
+ST  -,Short Title
+T2  -,Published Source
+TA  -,Translated Author
+TI  -,Title
+TT  -,Translated Title
+UR  -,URL
+VL  -,Number
+Y2  -,Access Date
+ER  -,{IGNORE}

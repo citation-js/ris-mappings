@@ -1,0 +1,2936 @@
+{
+  "AB": {
+    "Abstract": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Synopsis": [
+      "Film or Broadcast - MPCT"
+    ]
+  },
+  "AD": {
+    "Author Address": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Editor Address": [
+      "Edited Book - EDBOOK"
+    ],
+    "Inventor Address": [
+      "Patent - PAT"
+    ]
+  },
+  "AN": {
+    "Accession Number": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Web Page - ELEC"
+    ]
+  },
+  "AU": {
+    "Author": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Online Database - DBASE",
+      "Pamphlet - PAMP",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Artist": [
+      "Artwork - ART"
+    ],
+    "Created By": [
+      "Chart - CHART",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Online Multimedia - MULTI"
+    ],
+    "Attribution": [
+      "Classical Work - CLSWK"
+    ],
+    "Programmer": [
+      "Computer Program - COMP",
+      "Computer Program - DATA"
+    ],
+    "Investigators": [
+      "Data File - DATA",
+      "Grant - GRANT"
+    ],
+    "Editor": [
+      "Edited Book - EDBOOK"
+    ],
+    "Director": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Cartographer": [
+      "Map - MAP"
+    ],
+    "Composer": [
+      "Music - MUSIC"
+    ],
+    "Reporter": [
+      "Newspaper Article - NEWS"
+    ],
+    "Inventor": [
+      "Patent - PAT"
+    ],
+    "Institution": [
+      "Standard - STAND"
+    ]
+  },
+  "CA": {
+    "Caption": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "CY": {
+    "City": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Government Document - GOVDOC",
+      "Hearing - HEAR",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Newspaper Article - NEWS",
+      "Pamphlet - PAMP",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Conference Location": [
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF"
+    ],
+    "Place Published": [
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Generic - GEN",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Music - MUSIC",
+      "Online Database - DBASE",
+      "Standard - STAND"
+    ],
+    "Country": [
+      "Film or Broadcast - MPCT",
+      "Patent - PAT",
+      "Statute - STAT"
+    ],
+    "Activity Location": [
+      "Grant - GRANT"
+    ]
+  },
+  "DA": {
+    "Date Accessed": [
+      "Aggregated Database - AGGR",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI"
+    ],
+    "Date": [
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Book - BOOK",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Edited Book - EDBOOK",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Generic - GEN",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Thesis - THES",
+      "Unpublished Work - UNPB"
+    ],
+    "Last Update Date": [
+      "Blog - BLOG",
+      "Web Page - ELEC"
+    ],
+    "Date Decided": [
+      "Case - CASE"
+    ],
+    "Date of Collection": [
+      "Data File - DATA"
+    ],
+    "Date Released": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Deadline": [
+      "Grant - GRANT"
+    ],
+    "Date of Code Edition": [
+      "Legal Rule - LEGAL"
+    ],
+    "Date Enacted": [
+      "Statute - STAT"
+    ]
+  },
+  "DB": {
+    "Name of Database": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "DO": {
+    "DOI": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "DP": {
+    "Database Provider": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "ET": {
+    "Date Published": [
+      "Aggregated Database - AGGR",
+      "Online Database - DBASE"
+    ],
+    "Edition": [
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Pamphlet - PAMP",
+      "Report - RPRT",
+      "Serial - SER",
+      "Web Page - ELEC"
+    ],
+    "Session": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Hearing - HEAR",
+      "Statute - STAT"
+    ],
+    "Action of Higher Court": [
+      "Case - CASE"
+    ],
+    "Version": [
+      "Chart - CHART",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Data File - DATA",
+      "Equation - EQUA",
+      "Figure - FIGURE"
+    ],
+    "Requirement": [
+      "Grant - GRANT"
+    ],
+    "Epub Date": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Description of Material": [
+      "Manuscript - MANSCPT"
+    ],
+    "International Patent Classification": [
+      "Patent - PAT"
+    ],
+    "Description": [
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM"
+    ]
+  },
+  "J2": {
+    "Alternate Title": [
+      "Aggregated Database - AGGR",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Blog - BLOG",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Map - MAP",
+      "Report - RPRT",
+      "Web Page - ELEC"
+    ],
+    "Abbreviated Publication": [
+      "Ancient Text - ANCIENT"
+    ],
+    "Abbreviation": [
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Encyclopedia - ENCYC",
+      "Grant - GRANT",
+      "Legal Rule - LEGAL",
+      "Manuscript - MANSCPT",
+      "Pamphlet - PAMP",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Unpublished Work - UNPB"
+    ],
+    "Alternate Journal": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Alternate Magazine": [
+      "Magazine Article - MGZN"
+    ]
+  },
+  "KW": {
+    "Keywords": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "L1": {
+    "File Attachments": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Figure": [
+      "Newspaper Article - NEWS"
+    ]
+  },
+  "L4": {
+    "Figure": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "URL": [
+      "Hearing - HEAR"
+    ],
+    "File Attachments": [
+      "Newspaper Article - NEWS"
+    ]
+  },
+  "LA": {
+    "Language": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "LB": {
+    "Label": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "M1": {
+    "Publication Number": [
+      "Aggregated Database - AGGR"
+    ],
+    "Text Number": [
+      "Ancient Text - ANCIENT"
+    ],
+    "Size": [
+      "Artwork - ART"
+    ],
+    "Number": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Chart - CHART",
+      "Dictionary - DICT",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Generic - GEN",
+      "Unpublished Work - UNPB"
+    ],
+    "Bill Number": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL"
+    ],
+    "Series Volume": [
+      "Book - BOOK",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Edited Book - EDBOOK",
+      "Pamphlet - PAMP",
+      "Serial - SER"
+    ],
+    "Computer": [
+      "Computer Program - COMP",
+      "Computer Program - DATA"
+    ],
+    "Issue": [
+      "Conference Proceedings - CONF",
+      "Electronic Article - EJOUR",
+      "Government Document - GOVDOC"
+    ],
+    "Chapter": [
+      "Electronic Book Section - ECHAP"
+    ],
+    "Status": [
+      "Grant - GRANT"
+    ],
+    "Document Number": [
+      "Hearing - HEAR",
+      "Report - RPRT",
+      "Thesis - THES"
+    ],
+    "Start Page": [
+      "Legal Rule - LEGAL",
+      "Newspaper Article - NEWS",
+      "Standard - STAND"
+    ],
+    "Issue Number": [
+      "Magazine Article - MGZN"
+    ],
+    "Folio Number": [
+      "Manuscript - MANSCPT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM"
+    ],
+    "Number of Screens": [
+      "Online Multimedia - MULTI"
+    ],
+    "Application Number": [
+      "Patent - PAT"
+    ],
+    "Public Law Number": [
+      "Statute - STAT"
+    ],
+    "Access Date": [
+      "Web Page - ELEC"
+    ]
+  },
+  "M3": {
+    "Type of Work": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Book - BOOK",
+      "Catalog - CTLG",
+      "Conference Paper - CPAPER",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book Section - ECHAP",
+      "Generic - GEN",
+      "Legal Rule - LEGAL",
+      "Manuscript - MANSCPT",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Serial - SER",
+      "Standard - STAND",
+      "Unpublished Work - UNPB"
+    ],
+    "Type": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Map - MAP",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT"
+    ],
+    "Type of Medium": [
+      "Blog - BLOG",
+      "Electronic Book - EBOOK",
+      "Web Page - ELEC"
+    ],
+    "Citation of Reversal": [
+      "Case - CASE"
+    ],
+    "Type of Image": [
+      "Chart - CHART",
+      "Equation - EQUA",
+      "Figure - FIGURE"
+    ],
+    "Medium": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Funding Type": [
+      "Grant - GRANT"
+    ],
+    "Type of Article": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Newspaper Article - NEWS"
+    ],
+    "Form of Item": [
+      "Music - MUSIC"
+    ],
+    "Patent Type": [
+      "Patent - PAT"
+    ],
+    "Thesis Type": [
+      "Thesis - THES"
+    ]
+  },
+  "N1": {
+    "Notes": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "OP": {
+    "Original Publication": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Music - MUSIC",
+      "Pamphlet - PAMP",
+      "Serial - SER"
+    ],
+    "Contents": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Report - RPRT",
+      "Web Page - ELEC"
+    ],
+    "History": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Case - CASE",
+      "Hearing - HEAR",
+      "Legal Rule - LEGAL",
+      "Statute - STAT"
+    ],
+    "Content": [
+      "Blog - BLOG"
+    ],
+    "Version History": [
+      "Data File - DATA"
+    ],
+    "Original Grant Number": [
+      "Grant - GRANT"
+    ],
+    "Priority Numbers": [
+      "Patent - PAT"
+    ]
+  },
+  "PB": {
+    "Publisher": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Hearing - HEAR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Pamphlet - PAMP",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Serial - SER",
+      "Standard - STAND",
+      "Web Page - ELEC"
+    ],
+    "Court": [
+      "Case - CASE"
+    ],
+    "Distributor": [
+      "Data File - DATA",
+      "Film or Broadcast - MPCT",
+      "Online Multimedia - MULTI"
+    ],
+    "Sponsoring Agency": [
+      "Grant - GRANT"
+    ],
+    "Library/Archive": [
+      "Manuscript - MANSCPT"
+    ],
+    "Assignee": [
+      "Patent - PAT"
+    ],
+    "Institution": [
+      "Report - RPRT",
+      "Unpublished Work - UNPB"
+    ],
+    "Source": [
+      "Statute - STAT"
+    ],
+    "University": [
+      "Thesis - THES"
+    ]
+  },
+  "PY": {
+    "Year": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Year Decided": [
+      "Case - CASE"
+    ],
+    "Year of Conference": [
+      "Conference Proceedings - CONF"
+    ],
+    "Year Released": [
+      "Film or Broadcast - MPCT"
+    ]
+  },
+  "RN": {
+    "Research Notes": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "SE": {
+    "Screens": [
+      "Aggregated Database - AGGR"
+    ],
+    "Code Section": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL"
+    ],
+    "Message Number": [
+      "Blog - BLOG"
+    ],
+    "Chapter": [
+      "Book Section - CHAP",
+      "Serial - SER"
+    ],
+    "Pages": [
+      "Book - BOOK"
+    ],
+    "Filed Date": [
+      "Case - CASE"
+    ],
+    "Number of Pages": [
+      "Catalog - CTLG"
+    ],
+    "Original Release Date": [
+      "Data File - DATA"
+    ],
+    "Version": [
+      "Dictionary - DICT"
+    ],
+    "E-Pub Date": [
+      "Electronic Article - EJOUR"
+    ],
+    "Section": [
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Statute - STAT"
+    ],
+    "Duration of Grant": [
+      "Grant - GRANT"
+    ],
+    "Section Number": [
+      "Legal Rule - LEGAL",
+      "Standard - STAND"
+    ],
+    "Start Page": [
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT"
+    ],
+    "International Patent Number": [
+      "Patent - PAT"
+    ]
+  },
+  "SN": {
+    "ISSN/ISBN": [
+      "Aggregated Database - AGGR",
+      "Classical Work - CLSWK"
+    ],
+    "ISBN": [
+      "Ancient Text - ANCIENT",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Hearing - HEAR",
+      "Map - MAP",
+      "Pamphlet - PAMP",
+      "Serial - SER",
+      "Web Page - ELEC"
+    ],
+    "ISSN": [
+      "Data File - DATA",
+      "Electronic Article - EJOUR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS"
+    ],
+    "ISBN/ISSN": [
+      "Generic - GEN"
+    ],
+    "Report Number": [
+      "Government Document - GOVDOC",
+      "Online Database - DBASE",
+      "Report - RPRT"
+    ],
+    "Document Number": [
+      "Legal Rule - LEGAL",
+      "Standard - STAND"
+    ],
+    "Patent Number": [
+      "Patent - PAT"
+    ]
+  },
+  "SP": {
+    "Pages": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Electronic Article - EJOUR",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Unpublished Work - UNPB"
+    ],
+    "Description": [
+      "Artwork - ART",
+      "Blog - BLOG",
+      "Chart - CHART",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Map - MAP",
+      "Web Page - ELEC"
+    ],
+    "Code Pages": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL"
+    ],
+    "Number of Pages": [
+      "Book - BOOK",
+      "Classical Work - CLSWK",
+      "Edited Book - EDBOOK",
+      "Electronic Book - EBOOK",
+      "Thesis - THES"
+    ],
+    "First Page": [
+      "Case - CASE"
+    ],
+    "Running Time": [
+      "Film or Broadcast - MPCT"
+    ]
+  },
+  "ST": {
+    "Short Title": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Abbreviated Case Name": [
+      "Case - CASE"
+    ]
+  },
+  "T2": {
+    "Periodical": [
+      "Aggregated Database - AGGR",
+      "Online Database - DBASE"
+    ],
+    "Publication Title": [
+      "Ancient Text - ANCIENT"
+    ],
+    "Code": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Statute - STAT"
+    ],
+    "Title of WebLog": [
+      "Blog - BLOG"
+    ],
+    "Book Title": [
+      "Book Section - CHAP",
+      "Electronic Book Section - ECHAP"
+    ],
+    "Series Title": [
+      "Book - BOOK",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Film or Broadcast - MPCT",
+      "Map - MAP",
+      "Online Multimedia - MULTI",
+      "Report - RPRT",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Image Source Program": [
+      "Chart - CHART",
+      "Equation - EQUA",
+      "Figure - FIGURE"
+    ],
+    "Conference Name": [
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF"
+    ],
+    "Dictionary Title": [
+      "Dictionary - DICT"
+    ],
+    "Secondary Title": [
+      "Edited Book - EDBOOK",
+      "Electronic Book - EBOOK",
+      "Generic - GEN",
+      "Serial - SER"
+    ],
+    "Periodical Title": [
+      "Electronic Article - EJOUR"
+    ],
+    "Encyclopedia Title": [
+      "Encyclopedia - ENCYC"
+    ],
+    "Committee": [
+      "Hearing - HEAR"
+    ],
+    "Journal": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Title Number": [
+      "Legal Rule - LEGAL"
+    ],
+    "Magazine": [
+      "Magazine Article - MGZN"
+    ],
+    "Collection Title": [
+      "Manuscript - MANSCPT"
+    ],
+    "Album Title": [
+      "Music - MUSIC"
+    ],
+    "Newspaper": [
+      "Newspaper Article - NEWS"
+    ],
+    "Published Source": [
+      "Pamphlet - PAMP",
+      "Patent - PAT"
+    ],
+    "Section Title": [
+      "Standard - STAND"
+    ],
+    "Academic Department": [
+      "Thesis - THES"
+    ]
+  },
+  "TA": {
+    "Translated Author": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "TI": {
+    "Title": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Thesis - THES",
+      "Web Page - ELEC"
+    ],
+    "Title of Entry": [
+      "Blog - BLOG"
+    ],
+    "Case Name": [
+      "Case - CASE"
+    ],
+    "Title of Grant": [
+      "Grant - GRANT"
+    ],
+    "Name of Act": [
+      "Statute - STAT"
+    ],
+    "Title of Work": [
+      "Unpublished Work - UNPB"
+    ]
+  },
+  "TT": {
+    "Translated Title": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "UR": {
+    "URL": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Online Multimedia - MULTI",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ]
+  },
+  "VL": {
+    "Volume": [
+      "Aggregated Database - AGGR",
+      "Ancient Text - ANCIENT",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Online Database - DBASE",
+      "Report - RPRT",
+      "Serial - SER"
+    ],
+    "Code Volume": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL"
+    ],
+    "Access Year": [
+      "Blog - BLOG",
+      "Web Page - ELEC"
+    ],
+    "Reporter Volume": [
+      "Case - CASE"
+    ],
+    "Image Size": [
+      "Chart - CHART",
+      "Equation - EQUA",
+      "Figure - FIGURE"
+    ],
+    "Edition": [
+      "Computer Program - COMP",
+      "Computer Program - DATA"
+    ],
+    "Amount Requested": [
+      "Grant - GRANT"
+    ],
+    "Rule Number": [
+      "Legal Rule - LEGAL",
+      "Standard - STAND"
+    ],
+    "Volume/Storage Container": [
+      "Manuscript - MANSCPT"
+    ],
+    "Number": [
+      "Pamphlet - PAMP"
+    ],
+    "Patent Version Number": [
+      "Patent - PAT"
+    ],
+    "Code Number": [
+      "Statute - STAT"
+    ],
+    "Degree": [
+      "Thesis - THES"
+    ]
+  },
+  "A2": {
+    "Editor": [
+      "Ancient Text - ANCIENT",
+      "Blog - BLOG",
+      "Book Section - CHAP",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Music - MUSIC",
+      "Serial - SER"
+    ],
+    "Performers": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO"
+    ],
+    "Sponsor": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL"
+    ],
+    "Series Editor": [
+      "Book - BOOK",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Edited Book - EDBOOK",
+      "Map - MAP",
+      "Online Multimedia - MULTI",
+      "Report - RPRT",
+      "Unpublished Work - UNPB",
+      "Web Page - ELEC"
+    ],
+    "Reporter": [
+      "Case - CASE"
+    ],
+    "Institution": [
+      "Catalog - CTLG",
+      "Pamphlet - PAMP"
+    ],
+    "Name of File": [
+      "Chart - CHART",
+      "Equation - EQUA",
+      "Figure - FIGURE"
+    ],
+    "Producer": [
+      "Data File - DATA"
+    ],
+    "Series Director": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Secondary Author": [
+      "Generic - GEN"
+    ],
+    "Department": [
+      "Government Document - GOVDOC"
+    ],
+    "Issuing Organization": [
+      "Legal Rule - LEGAL",
+      "Patent - PAT"
+    ],
+    "Recipient": [
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM"
+    ]
+  },
+  "A4": {
+    "Translator": [
+      "Ancient Text - ANCIENT",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Encyclopedia - ENCYC",
+      "Grant - GRANT",
+      "Pamphlet - PAMP"
+    ],
+    "Counsel": [
+      "Case - CASE"
+    ],
+    "Sponsor": [
+      "Conference Proceedings - CONF"
+    ],
+    "Funding Agency": [
+      "Data File - DATA"
+    ],
+    "Performers": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Subsidiary Author": [
+      "Generic - GEN"
+    ],
+    "Producer": [
+      "Music - MUSIC"
+    ],
+    "Department/Division": [
+      "Report - RPRT"
+    ],
+    "Volume Editor": [
+      "Serial - SER"
+    ]
+  },
+  "CN": {
+    "Call Number": [
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Statute - STAT",
+      "Thesis - THES",
+      "Web Page - ELEC"
+    ]
+  },
+  "NV": {
+    "Number of Volumes": [
+      "Ancient Text - ANCIENT",
+      "Book - BOOK",
+      "Classical Work - CLSWK",
+      "Conference Proceedings - CONF",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Hearing - HEAR",
+      "Music - MUSIC",
+      "Serial - SER"
+    ],
+    "Extent of Work": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO"
+    ],
+    "Reporter Abbreviation": [
+      "Case - CASE"
+    ],
+    "Catalog Number": [
+      "Catalog - CTLG"
+    ],
+    "Study Number": [
+      "Data File - DATA"
+    ],
+    "Document Number": [
+      "Electronic Article - EJOUR"
+    ],
+    "Version": [
+      "Electronic Book - EBOOK"
+    ],
+    "Amount Received": [
+      "Grant - GRANT"
+    ],
+    "Session Number": [
+      "Legal Rule - LEGAL",
+      "Standard - STAND"
+    ],
+    "Frequency": [
+      "Magazine Article - MGZN",
+      "Newspaper Article - NEWS"
+    ],
+    "Manuscript Number": [
+      "Manuscript - MANSCPT"
+    ],
+    "US Patent Classification": [
+      "Patent - PAT"
+    ],
+    "Communication Number": [
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM"
+    ],
+    "Series Volume": [
+      "Report - RPRT"
+    ],
+    "Statute Number": [
+      "Statute - STAT"
+    ]
+  },
+  "RI": {
+    "Reviewed Item": [
+      "Ancient Text - ANCIENT",
+      "Book Section - CHAP",
+      "Dictionary - DICT",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Grant - GRANT",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Newspaper Article - NEWS",
+      "Serial - SER"
+    ],
+    "Geographic Coverage": [
+      "Data File - DATA"
+    ],
+    "Article Number": [
+      "Statute - STAT"
+    ]
+  },
+  "RP": {
+    "Reprint Edition": [
+      "Ancient Text - ANCIENT",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Classical Work - CLSWK",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Generic - GEN",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Pamphlet - PAMP",
+      "Serial - SER"
+    ],
+    "Review Date": [
+      "Grant - GRANT"
+    ],
+    "Notes": [
+      "Patent - PAT",
+      "Report - RPRT"
+    ]
+  },
+  "T3": {
+    "Volume Title": [
+      "Ancient Text - ANCIENT"
+    ],
+    "Series Title": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Book Section - CHAP",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Government Document - GOVDOC",
+      "Music - MUSIC",
+      "Serial - SER"
+    ],
+    "Legislative Body": [
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Hearing - HEAR"
+    ],
+    "Institution": [
+      "Blog - BLOG"
+    ],
+    "Decision": [
+      "Case - CASE"
+    ],
+    "Website Title": [
+      "Electronic Article - EJOUR"
+    ],
+    "Tertiary Title": [
+      "Generic - GEN"
+    ],
+    "Supplement No.": [
+      "Legal Rule - LEGAL"
+    ],
+    "International Title": [
+      "Patent - PAT"
+    ],
+    "Paper Number": [
+      "Standard - STAND"
+    ],
+    "International Source": [
+      "Statute - STAT"
+    ],
+    "Department": [
+      "Unpublished Work - UNPB"
+    ]
+  },
+  "Y2": {
+    "Access Date": [
+      "Ancient Text - ANCIENT",
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Bill, Unenacted Bill - BILL",
+      "Bill, Unenacted Bill - UNBILL",
+      "Blog - BLOG",
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Case - CASE",
+      "Catalog - CTLG",
+      "Chart - CHART",
+      "Classical Work - CLSWK",
+      "Computer Program - COMP",
+      "Computer Program - DATA",
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF",
+      "Data File - DATA",
+      "Dictionary - DICT",
+      "Edited Book - EDBOOK",
+      "Electronic Book Section - ECHAP",
+      "Encyclopedia - ENCYC",
+      "Equation - EQUA",
+      "Figure - FIGURE",
+      "Film or Broadcast - MPCT",
+      "Generic - GEN",
+      "Government Document - GOVDOC",
+      "Grant - GRANT",
+      "Hearing - HEAR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR",
+      "Legal Rule - LEGAL",
+      "Magazine Article - MGZN",
+      "Manuscript - MANSCPT",
+      "Map - MAP",
+      "Music - MUSIC",
+      "Newspaper Article - NEWS",
+      "Pamphlet - PAMP",
+      "Patent - PAT",
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM",
+      "Report - RPRT",
+      "Serial - SER",
+      "Standard - STAND",
+      "Thesis - THES",
+      "Unpublished Work - UNPB"
+    ],
+    "Date Enacted": [
+      "Statute - STAT"
+    ]
+  },
+  "C3": {
+    "Size/Length": [
+      "Artwork - ART",
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO"
+    ],
+    "Title Prefix": [
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP"
+    ],
+    "Proceedings Title": [
+      "Conference Proceedings - CONF"
+    ],
+    "Data Type": [
+      "Data File - DATA"
+    ],
+    "PMCID": [
+      "Electronic Article - EJOUR"
+    ],
+    "Custom 3": [
+      "Generic - GEN"
+    ],
+    "Congress Session": [
+      "Government Document - GOVDOC"
+    ],
+    "Contact Phone": [
+      "Grant - GRANT"
+    ],
+    "Size": [
+      "Map - MAP"
+    ],
+    "Music Parts": [
+      "Music - MUSIC"
+    ],
+    "Designated States": [
+      "Patent - PAT"
+    ]
+  },
+  "A3": {
+    "Series Editor": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Book Section - CHAP",
+      "Conference Proceedings - CONF",
+      "Electronic Book - EBOOK",
+      "Music - MUSIC",
+      "Serial - SER"
+    ],
+    "Illustrator": [
+      "Blog - BLOG"
+    ],
+    "Editor": [
+      "Book - BOOK"
+    ],
+    "Higher Court": [
+      "Case - CASE"
+    ],
+    "Producer": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Tertiary Author": [
+      "Generic - GEN"
+    ],
+    "International Author": [
+      "Patent - PAT"
+    ],
+    "Publisher": [
+      "Report - RPRT"
+    ],
+    "Advisor": [
+      "Thesis - THES"
+    ]
+  },
+  "C1": {
+    "Cast": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Film or Broadcast - MPCT"
+    ],
+    "Author Affiliation": [
+      "Blog - BLOG"
+    ],
+    "Section": [
+      "Book Section - CHAP",
+      "Electronic Book Section - ECHAP",
+      "Serial - SER"
+    ],
+    "Place Published": [
+      "Conference Paper - CPAPER",
+      "Conference Proceedings - CONF"
+    ],
+    "Time Period": [
+      "Data File - DATA"
+    ],
+    "Term": [
+      "Dictionary - DICT",
+      "Encyclopedia - ENCYC"
+    ],
+    "Year Cited": [
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Online Multimedia - MULTI",
+      "Web Page - ELEC"
+    ],
+    "Custom 1": [
+      "Generic - GEN"
+    ],
+    "Government Body": [
+      "Government Document - GOVDOC"
+    ],
+    "Contact Name": [
+      "Grant - GRANT"
+    ],
+    "Legal Note": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Scale": [
+      "Map - MAP"
+    ],
+    "Format of Music": [
+      "Music - MUSIC"
+    ],
+    "Column": [
+      "Newspaper Article - NEWS"
+    ],
+    "Sender's E-Mail": [
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM"
+    ]
+  },
+  "C2": {
+    "Credits": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Film or Broadcast - MPCT"
+    ],
+    "Year Published": [
+      "Conference Proceedings - CONF"
+    ],
+    "Unit of Observation": [
+      "Data File - DATA"
+    ],
+    "Date Cited": [
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Online Multimedia - MULTI",
+      "Web Page - ELEC"
+    ],
+    "Custom 2": [
+      "Generic - GEN"
+    ],
+    "Congress Number": [
+      "Government Document - GOVDOC",
+      "Hearing - HEAR"
+    ],
+    "Contact Address": [
+      "Grant - GRANT"
+    ],
+    "PMCID": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Area": [
+      "Map - MAP"
+    ],
+    "Form of Composition": [
+      "Music - MUSIC"
+    ],
+    "Issue": [
+      "Newspaper Article - NEWS"
+    ],
+    "Issue Date": [
+      "Patent - PAT"
+    ],
+    "Recieipients E-Mail": [
+      "Personal Communication - ICOMM",
+      "Personal Communication - PCOMM"
+    ],
+    "Report Number": [
+      "Serial - SER"
+    ]
+  },
+  "C5": {
+    "Format": [
+      "Audiovisual Material - ADVS",
+      "Audiovisual Material - SLIDE",
+      "Audiovisual Material - SOUND",
+      "Audiovisual Material - VIDEO",
+      "Film or Broadcast - MPCT"
+    ],
+    "Packaging Method": [
+      "Book Section - CHAP",
+      "Catalog - CTLG",
+      "Conference Proceedings - CONF",
+      "Electronic Book Section - ECHAP",
+      "Map - MAP",
+      "Pamphlet - PAMP",
+      "Serial - SER"
+    ],
+    "Issue Title": [
+      "Electronic Article - EJOUR"
+    ],
+    "Last Update Date": [
+      "Electronic Book - EBOOK"
+    ],
+    "Custom 5": [
+      "Generic - GEN"
+    ],
+    "Funding Number": [
+      "Grant - GRANT"
+    ],
+    "Accompanying Matter": [
+      "Music - MUSIC"
+    ],
+    "Format/Length": [
+      "Online Multimedia - MULTI"
+    ],
+    "References": [
+      "Patent - PAT"
+    ],
+    "Publisher": [
+      "Statute - STAT"
+    ]
+  },
+  "C4": {
+    "Reviewer": [
+      "Book - BOOK",
+      "Book Section - CHAP",
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP"
+    ],
+    "Dataset(s)": [
+      "Data File - DATA"
+    ],
+    "Genre": [
+      "Film or Broadcast - MPCT"
+    ],
+    "Custom 4": [
+      "Generic - GEN"
+    ],
+    "Contact Fax": [
+      "Grant - GRANT"
+    ],
+    "Target Audience": [
+      "Music - MUSIC"
+    ],
+    "Attorney/Agent": [
+      "Patent - PAT"
+    ]
+  },
+  "IS": {
+    "Number of Volumes": [
+      "Book Section - CHAP"
+    ],
+    "Issue": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ]
+  },
+  "SV": {
+    "Series Volume": [
+      "Book Section - CHAP"
+    ]
+  },
+  "C6": {
+    "NIHMSID": [
+      "Electronic Article - EJOUR",
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Custom 6": [
+      "Generic - GEN"
+    ],
+    "CFDA Number": [
+      "Grant - GRANT"
+    ],
+    "Legal Status": [
+      "Patent - PAT"
+    ],
+    "Issue": [
+      "Report - RPRT"
+    ],
+    "Volume": [
+      "Statute - STAT"
+    ]
+  },
+  "C7": {
+    "Article Number": [
+      "Electronic Article - EJOUR",
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "PMCID": [
+      "Electronic Book - EBOOK",
+      "Electronic Book Section - ECHAP"
+    ],
+    "Custom 7": [
+      "Generic - GEN"
+    ]
+  },
+  "CT": {
+    "Caption": [
+      "Figure - FIGURE"
+    ]
+  },
+  "C8": {
+    "Custom 8": [
+      "Generic - GEN"
+    ]
+  },
+  "M2": {
+    "Start Page": [
+      "Journal Article - ABST",
+      "Journal Article - INPR",
+      "Journal Article - JFULL",
+      "Journal Article - JOUR"
+    ],
+    "Number of Pages": [
+      "Pamphlet - PAMP"
+    ]
+  }
+}
