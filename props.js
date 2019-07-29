@@ -12,7 +12,7 @@ const DESC_TO_CSL = {
   },
 
   AN: {
-    'Accession Number': 'call-number', // ?
+    'Accession Number': false,
   },
 
   AU: {
@@ -36,7 +36,7 @@ const DESC_TO_CSL = {
   },
 
   CY: {
-    City: false, // TODO archive-location, jurisdiction
+    City: false, // TODO archive-place, jurisdiction
     'Conference Location': 'event-place',
     'Place Published': false,
     Country: false, // TODO jurisdiction
@@ -56,7 +56,7 @@ const DESC_TO_CSL = {
   },
 
   DB: {
-    'Name of Database': false, // archive?
+    'Name of Database': 'source',
   },
 
   DO: {
@@ -75,15 +75,15 @@ const DESC_TO_CSL = {
     Version: 'version',
     Requirement: false,
     'Epub Date': 'issued',
-    'Description of Material': false, // medium?
+    'Description of Material': 'medium',
     'International Patent Classification': false,
-    Description: false, // merge with abstract?
+    Description: false,
   },
 
   J2: {
-    'Alternate Title': false, // title-short?
-    'Abbreviated Publication': false, // container-title-short?
-    Abbreviation: false, // title-short?
+    'Alternate Title': false,
+    'Abbreviated Publication': 'container-title-short',
+    Abbreviation: 'title-short', // ?
     'Alternate Journal': 'container-title-short',
     'Alternate Magazine': 'container-title-short',
   },
@@ -126,10 +126,10 @@ const DESC_TO_CSL = {
     'Start Page': 'page-first',
     'Issue Number': 'issue',
     'Folio Number': 'number',
-    'Number of Screens': false, // dimensions?
+    'Number of Screens': false,
     'Application Number': 'number',
     'Public Law Number': 'number',
-    'Access Date': 'accessed', // WHYYY?! (shouldn't matter though)
+    'Access Date': 'accessed',
   },
 
   M3: {
@@ -163,17 +163,16 @@ const DESC_TO_CSL = {
   PB: {
     Publisher: 'publisher',
     Court: 'authority',
-    Distributor: false, // publisher?
+    Distributor: 'publisher',
     'Sponsoring Agency': false, // publisher?
     'Library/Archive': 'archive',
     Assignee: false, // TODO
-    Institution: false, // publisher?
+    Institution: 'publisher',
     Source: 'source',
-    University: false, // publisher?
+    University: 'publisher',
   },
 
   PY: {
-    // All: merge
     Year: 'issued',
     'Year Decided': 'issued',
     'Year of Conference': 'event-date',
@@ -199,7 +198,7 @@ const DESC_TO_CSL = {
     'Duration of Grant': false,
     'Section Number': 'section',
     'Start Page': 'page-first',
-    'International Patent Number': 'number', // merge
+    'International Patent Number': 'number',
   },
 
   SN: {
@@ -214,7 +213,7 @@ const DESC_TO_CSL = {
 
   SP: {
     Pages: 'page',
-    Description: false, // merge with abstract?
+    Description: false,
     'Code Pages': 'page',
     'Number of Pages': 'number-of-pages',
     'First Page': 'page-first',
@@ -239,7 +238,7 @@ const DESC_TO_CSL = {
     'Secondary Title': 'container-title',
     'Periodical Title': 'collection-title',
     'Encyclopedia Title': 'container-title',
-    Committee: 'authority', // CSL-M
+    Committee: 'committee', // CSL-M
     Journal: 'container-title',
     'Title Number': false, // TODO
     Magazine: 'container-title',
@@ -275,7 +274,7 @@ const DESC_TO_CSL = {
   VL: {
     Volume: 'volume',
     'Code Volume': 'volume', // TODO
-    'Access Year': 'accessed', // merge
+    'Access Year': 'accessed',
     'Reporter Volume': 'volume', // TODO
     'Image Size': 'dimensions',
     Edition: 'edition',
@@ -346,7 +345,7 @@ const DESC_TO_CSL = {
 
   RP: {
     'Reprint Edition': false, // ?
-    'Review Date': false, // ?
+    'Review Date': false, // should maybe replace other 'issued'
     Notes: false, // note?
   },
 
@@ -380,6 +379,7 @@ const DESC_TO_CSL = {
     'Congress Session': false,
     'Contact Phone': false,
     Size: 'dimensions',
+    'Music Parts': false,
     'Designated States': 'jurisdiction',
   },
 
@@ -444,8 +444,9 @@ const DESC_TO_CSL = {
   },
 
   C4: {
-    Reviewer: false, // ?
+    Reviewer: 'author', // switch Author with reviewed-author
     'Dataset(s)': false,
+    Genre: false, // not 'genre' :/
     'Custom 4': false,
     'Contact Fax': false,
     'Target Audience': false,
@@ -458,7 +459,7 @@ const DESC_TO_CSL = {
   },
 
   SV: {
-    'Series Volume': 'collection-number', // ?
+    'Series Volume': 'collection-number',
   },
 
   C6: {

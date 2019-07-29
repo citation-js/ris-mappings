@@ -43,7 +43,6 @@ for (let tag in tags) {
     const mapping = props[prop]
 
     add(risDuplicates, prop, mapping, tag)
-    console.log(prop in mappings[tag], tag, prop)
     mappings[tag][prop].forEach(type => add(cslDuplicates, mapping, type.split(' ').pop(), tag))
   }
 }

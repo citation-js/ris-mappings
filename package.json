@@ -4,7 +4,7 @@
   "description": "Contains derived CSL↔RIS mappings data.",
   "scripts": {
     "build": "node summarize_mappings.js && node match.js",
-    "analyze": "node analyze_mappings.js"
+    "analyze": "node analyze_props.js"
   },
   "keywords": ["RIS", "Citation.js"],
   "author": "Lars Willighagen",
