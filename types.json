@@ -13,7 +13,7 @@
     "CHART": "figure",
     "CLSWK": "manuscript",
     "COMP": "book",
-    "CONF": "book",
+    "CONF": "paper-conference",
     "CPAPER": "paper-conference",
     "CTLG": "entry",
     "DATA": "dataset",

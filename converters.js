@@ -1,5 +1,5 @@
 import TYPES from './types.json'
-import date from '@citation-js/date'
+import DATE from '@citation-js/date'
 
 const ISSN_REGEX = /^\d{4}-\d{4}$/
 const CONVERTERS = {
@@ -15,13 +15,12 @@ const CONVERTERS = {
 
   ISBN: {
     toTarget (id) { return ISSN_REGEX.test(id) ? [id] : [, id] },
-    toSource (ids) { return ids.find(Boolean) }
+    toSource (...ids) { return ids.find(Boolean) }
   },
 
   DATE: {
-    toTarget (...dates) {
-      const parts = dates.find(Boolean).split('/')
-      return date.parse(parts.slice(0, 3).filter(Boolean).join('/'))
+    toTarget (date) {
+      return date && DATE.parse(date.split('/').slice(0, 3).filter(Boolean).join('/'))
     },
     toSource (date) {
       const parts = Array(4).fill('')
@@ -32,28 +31,36 @@ const CONVERTERS = {
   },
 
   NAME: {
-    toTarget (...lists) {
-      return lists
-        .reduce((names, list) => list ? names.concat(list) : names, [])
-        .map(name => {
-          const parts = name.split(',')
-          const [family, given, suffix] = parts
-          switch (parts.length) {
-            case 3:
-              return { family, given, suffix }
-            case 2:
-              return { family, given }
-            case 1:
-              if (family.indexOf(' ') > -1) { return { family } }
-              // fall-through
-            default:
-              return { literal: name }
-          }
-        })
+    toTarget (names) {
+      return names && [].concat(names).map(name => {
+        const parts = name.split(',')
+        const [family, given, suffix] = parts
+        switch (parts.length) {
+          case 3:
+            return { family, given, suffix }
+          case 2:
+            return { family, given }
+          case 1:
+            if (family.indexOf(' ') > -1) { return { family } }
+            // fall-through
+          default:
+            return { literal: name }
+        }
+      })
     },
     toSource (names) {
       return names.map(({ family, given, suffix }) => [family, given, suffix].filter(Boolean).join(','))
     }
+  },
+
+  DATES: {
+    toTarget (...args) { return CONVERTERS.DATE.toTarget(CONVERTERS.ANY.toTarget(...args)) },
+    toSource (...args) { return CONVERTERS.ANY.toSource(CONVERTERS.DATE.toSource(...args)) }
+  },
+
+  NAMES: {
+    toTarget (...args) { return CONVERTERS.NAME.toTarget(CONVERTERS.ANY.toTarget(...args)) },
+    toSource (...args) { return CONVERTERS.ANY.toSource(CONVERTERS.NAME.toSource(...args)) }
   },
 
   KEYWORD: {
