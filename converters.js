@@ -1,5 +1,5 @@
-const TYPES = require('./types')
-const date = require('@citation-js/date')
+import TYPES from './types.json'
+import date from '@citation-js/date'
 
 const ISSN_REGEX = /^\d{4}-\d{4}$/
 const CONVERTERS = {
@@ -20,7 +20,8 @@ const CONVERTERS = {
 
   DATE: {
     toTarget (...dates) {
-      return date.parse(dates.find(Boolean).split('/').filter(Boolean).join('/'))
+      const parts = dates.find(Boolean).split('/')
+      return date.parse(parts.slice(0, 3).filter(Boolean).join('/'))
     },
     toSource (date) {
       const parts = Array(4).fill('')
@@ -35,8 +36,19 @@ const CONVERTERS = {
       return lists
         .reduce((names, list) => list ? names.concat(list) : names, [])
         .map(name => {
-          const [family, given, suffix] = name.split(',')
-          return { family, given, suffix }
+          const parts = name.split(',')
+          const [family, given, suffix] = parts
+          switch (parts.length) {
+            case 3:
+              return { family, given, suffix }
+            case 2:
+              return { family, given }
+            case 1:
+              if (family.indexOf(' ') > -1) { return { family } }
+              // fall-through
+            default:
+              return { literal: name }
+          }
         })
     },
     toSource (names) {

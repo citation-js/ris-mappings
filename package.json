@@ -2,6 +2,7 @@
   "name": "ris-mapping",
   "version": "0.0.0",
   "description": "Contains derived CSL↔RIS mappings data.",
+  "type": "module",
   "scripts": {
     "build": "node summarize_mappings.js && node match.js",
     "analyze": "node analyze_props.js"
