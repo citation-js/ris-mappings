@@ -1,10 +1,8 @@
-import CONVERTERS from '../converters.js'
-
 export default [
   // Title and Reference Type Tags
-  { source: 'TY', target: 'type', convert: CONVERTERS.TYPE },
-  { source: 'ID', target: 'id', convert: CONVERTERS.ID },
-  { source: ['T1', 'TI', 'CT'], target: 'title', convert: CONVERTERS.ANY },
+  { source: 'TY', target: 'type' },
+  { source: 'ID', target: 'id' },
+  { source: ['T1', 'TI', 'CT'], target: 'title' },
   {
     source: 'BT',
     target: 'title',
@@ -49,12 +47,12 @@ export default [
   { source: 'T3', target: 'collection-title' },
 
   // Authors
-  { source: ['A1', 'AU'], target: 'author', convert: CONVERTERS.NAMES },
-  { source: ['A2', 'ED'], target: 'editor', convert: CONVERTERS.NAMES },
-  { source: 'A3', target: 'collection-editor', convert: CONVERTERS.NAME },
+  { source: ['A1', 'AU'], target: 'author' },
+  { source: ['A2', 'ED'], target: 'editor' },
+  { source: 'A3', target: 'collection-editor' },
 
   // Year and Free Text Fields
-  { source: ['Y1', 'PY'], target: 'issued', convert: CONVERTERS.DATES },
+  { source: ['Y1', 'PY'], target: 'issued' },
   {
     source: 'Y2',
     target: 'event-date',
@@ -67,11 +65,11 @@ export default [
     convert: CONVERTERS.DATE,
     when: { source: { type: ['PAT'] }, target: { type: 'patent' } }
   },
-  { source: ['AB', 'N1'], target: 'note', convert: CONVERTERS.ANY },
+  { source: ['AB', 'N1'], target: 'note' },
   { source: 'N2', target: 'abstract' },
 
   // Keywords and Reprint Status
-  { source: 'KW', target: 'keyword', convert: CONVERTERS.KEYWORD },
+  { source: 'KW', target: 'keyword' },
   // RP - reprint edition
 
   // Periodical Tags
@@ -81,11 +79,11 @@ export default [
     convert: CONVERTERS.ANY,
     when: { target: { type: ['article', 'article-journal', 'article-magazine', 'article-newspaper'] } }
   },
-  { source: ['JA', 'J1', 'J2'], target: 'container-title-short', convert: CONVERTERS.ANY },
+  { source: ['JA', 'J1', 'J2'], target: 'container-title-short' },
 
   // Periodical and Publisher Tags
   { source: 'VL', target: 'volume' },
-  { source: ['IS', 'CP'], target: 'issue', convert: CONVERTERS.ANY },
+  { source: ['IS', 'CP'], target: 'issue' },
   { source: 'SP', target: 'page-first' },
   {
     source: ['SP', 'EP'],
@@ -95,7 +93,7 @@ export default [
   },
   // CY - publication place (not publisher-place)
   { source: 'PB', target: 'publisher' },
-  { source: 'SN', target: ['ISSN', 'ISBN'], convert: CONVERTERS.ISBN },
+  { source: 'SN', target: ['ISSN', 'ISBN'] },
 
   // Misc. Tags
   // AV, M1-3, U1-6

@@ -1,4 +1,3 @@
-// TODO: check 'author', 'issued', 'number'
 const DESC_TO_CSL = {
   AB: {
     Abstract: 'abstract',
@@ -50,7 +49,7 @@ const DESC_TO_CSL = {
     'Date Decided': 'issued',
     'Date of Collection': 'issued',
     'Date Released': 'issued',
-    'Deadline': 'issued', // TODO
+    'Deadline': 'issued',
     'Date of Code Edition': 'issued',
     'Date Enacted': 'issued',
   },
@@ -74,7 +73,7 @@ const DESC_TO_CSL = {
     'Action of Higher Court': false,
     Version: 'version',
     Requirement: false,
-    'Epub Date': 'issued',
+    'Epub Date': false,
     'Description of Material': 'medium',
     'International Patent Classification': false,
     Description: false,
@@ -83,7 +82,7 @@ const DESC_TO_CSL = {
   J2: {
     'Alternate Title': false,
     'Abbreviated Publication': 'container-title-short',
-    Abbreviation: 'title-short', // ?
+    Abbreviation: 'container-title-short',
     'Alternate Journal': 'container-title-short',
     'Alternate Magazine': 'container-title-short',
   },
@@ -135,13 +134,13 @@ const DESC_TO_CSL = {
   M3: {
     'Type of Work': 'genre',
     Type: 'genre',
-    'Type of Medium': 'genre', // medium?
+    'Type of Medium': 'medium',
     'Citation of Reversal': false,
     'Type of Image': 'genre',
     Medium: 'medium',
     'Funding Type': 'genre',
     'Type of Article': 'genre',
-    'Form of Item': 'medium', // TODO
+    'Form of Item': 'medium',
     'Patent Type': 'genre',
     'Thesis Type': 'genre',
   },
@@ -164,11 +163,11 @@ const DESC_TO_CSL = {
     Publisher: 'publisher',
     Court: 'authority',
     Distributor: 'publisher',
-    'Sponsoring Agency': false, // publisher?
+    'Sponsoring Agency': 'publisher',
     'Library/Archive': 'archive',
-    Assignee: false, // TODO
+    Assignee: false,
     Institution: 'publisher',
-    Source: 'source',
+    Source: 'publisher',
     University: 'publisher',
   },
 
@@ -196,16 +195,16 @@ const DESC_TO_CSL = {
     'E-Pub Date': 'issued',
     Section: 'section',
     'Duration of Grant': false,
-    'Section Number': 'section',
+    'Section Number': 'locator',
     'Start Page': 'page-first',
     'International Patent Number': 'number',
   },
 
   SN: {
-    'ISSN/ISBN': ['ISSN', 'ISBN'], // split
+    'ISSN/ISBN': ['ISSN', 'ISBN'],
     ISBN: 'ISBN',
     ISSN: 'ISSN',
-    'ISBN/ISSN': ['ISBN', 'ISSN'], // split
+    'ISBN/ISSN': ['ISSN', 'ISBN'],
     'Report Number': 'number',
     'Document Number': 'number',
     'Patent Number': 'number',
@@ -228,7 +227,7 @@ const DESC_TO_CSL = {
   T2: {
     'Periodical': 'collection-title',
     'Publication Title': 'container-title',
-    Code: 'container-title', // TODO
+    Code: 'container-title',
     'Title of WebLog': 'container-title',
     'Book Title': 'container-title',
     'Series Title': 'collection-title',
@@ -236,18 +235,18 @@ const DESC_TO_CSL = {
     'Conference Name': 'event',
     'Dictionary Title': 'container-title',
     'Secondary Title': 'container-title',
-    'Periodical Title': 'collection-title',
+    'Periodical Title': 'container-title',
     'Encyclopedia Title': 'container-title',
     Committee: 'committee', // CSL-M
     Journal: 'container-title',
-    'Title Number': false, // TODO
+    'Title Number': 'locator',
     Magazine: 'container-title',
     'Collection Title': 'collection-title',
     'Album Title': 'container-title',
     Newspaper: 'container-title',
-    'Published Source': 'container-title', // TODO
-    'Section Title': 'container-title', // TODO
-    'Academic Department': 'container-title', // TODO
+    'Published Source': 'container-title',
+    'Section Title': 'section',
+    'Academic Department': 'container-title',
   },
 
   TA: {
@@ -273,17 +272,17 @@ const DESC_TO_CSL = {
 
   VL: {
     Volume: 'volume',
-    'Code Volume': 'volume', // TODO
+    'Code Volume': 'volume',
     'Access Year': 'accessed',
-    'Reporter Volume': 'volume', // TODO
+    'Reporter Volume': 'volume',
     'Image Size': 'dimensions',
     Edition: 'edition',
     'Amount Requested': false,
-    'Rule Number': 'number',
+    'Rule Number': 'volume',
     'Volume/Storage Container': 'volume',
     Number: 'number',
     'Patent Version Number': 'version',
-    'Code Number': 'number',
+    'Code Number': false,
     Degree: false,
   },
 
@@ -292,13 +291,13 @@ const DESC_TO_CSL = {
     Performers: false,
     Sponsor: false,
     'Series Editor': 'collection-editor',
-    Reporter: 'author',
-    Institution: 'author',
+    Reporter: 'reporter',
+    Institution: false,
     'Name of File': false,
     Producer: false,
-    'Series Director': 'director',
+    'Series Director': false,
     'Secondary Author': false,
-    Department: 'author',
+    Department: false,
     'Issuing Organization': false,
     Recipient: 'recipient',
   },
@@ -312,7 +311,7 @@ const DESC_TO_CSL = {
     'Subsidiary Author': false,
     Producer: false,
     'Department/Division': false,
-    'Volume Editor': 'collection-editor',
+    'Volume Editor': false,
   },
 
   CN: {
@@ -327,8 +326,8 @@ const DESC_TO_CSL = {
     'Study Number': 'number',
     'Document Number': 'number',
     Version: 'version',
-    'Amount Received': false,
-    'Session Number': 'number',
+    'Amount Received': 'dimensions',
+    'Session Number': false,
     Frequency: false,
     'Manuscript Number': 'number',
     'US Patent Classification': false,
@@ -340,13 +339,13 @@ const DESC_TO_CSL = {
   RI: {
     'Reviewed Item': 'title', // switch Title with review-title
     'Geographic Coverage': false,
-    'Article Number': 'number',
+    'Article Number': 'locator',
   },
 
   RP: {
-    'Reprint Edition': false, // ?
-    'Review Date': false, // should maybe replace other 'issued'
-    Notes: false, // note?
+    'Reprint Edition': false,
+    'Review Date': false,
+    Notes: 'note',
   },
 
   T3: {
@@ -372,8 +371,8 @@ const DESC_TO_CSL = {
   C3: {
     'Size/Length': 'dimensions',
     'Title Prefix': false,
-    'Proceedings Title': 'container-title', // ?
-    'Data Type': false, // ?
+    'Proceedings Title': 'container-title',
+    'Data Type': false,
     PMCID: 'PMCID',
     'Custom 3': false,
     'Congress Session': false,
@@ -399,7 +398,7 @@ const DESC_TO_CSL = {
     Cast: false,
     'Author Affiliation': false,
     Section: 'section',
-    'Place Published': 'publisher-place',
+    'Place Published': false,
     'Time Period': false,
     Term: false,
     'Year Cited': false,
@@ -408,7 +407,7 @@ const DESC_TO_CSL = {
     'Contact Name': false,
     'Legal Note': false,
     'Scale': 'scale',
-    'Format of Music': false, // ?
+    'Format of Music': false,
     Column: false,
     'Sender\'s E-Mail': false,
   },
@@ -431,10 +430,10 @@ const DESC_TO_CSL = {
   },
 
   C5: {
-    Format: 'medium',
+    Format: false,
     'Packaging Method': false,
-    'Issue Title': 'container-title',
-    'Last Update Date': false,
+    'Issue Title': false,
+    'Last Update Date': 'issued',
     'Custom 5': false,
     'Funding Number': 'number',
     'Accompanying Matter': false,
@@ -465,8 +464,8 @@ const DESC_TO_CSL = {
   C6: {
     NIHMSID: false,
     'Custom 6': false,
-    'CFDA Number': 'number',
-    'Legal Status': 'status', // ?
+    'CFDA Number': false, // classification
+    'Legal Status': 'status',
     Issue: 'issue',
     Volume: 'volume',
   },

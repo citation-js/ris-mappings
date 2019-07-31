@@ -1,5 +1,4 @@
 TY  -,`COMP`
-TY  -,`DATA`
 A2  -,Series Editor
 AB  -,Abstract
 AD  -,Author Address
@@ -33,6 +32,6 @@ TA  -,Translated Author
 TI  -,Title
 TT  -,Translated Title
 UR  -,URL
-VL  - ,Edition
+VL  -,Edition
 Y2  -,Access Date
 ER  -,{IGNORE}

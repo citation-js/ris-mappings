@@ -41,7 +41,6 @@
           "BOOK",
           "CLSWK",
           "COMP",
-          "DATA",
           "EDBOOK",
           "ELEC",
           "MAP",
@@ -53,7 +52,6 @@
       "target": {
         "type": [
           "book",
-          "dataset",
           "manuscript",
           "map",
           "motion_picture",
@@ -65,22 +63,16 @@
   },
   {
     "source": "A2",
-    "target": "author",
+    "target": "reporter",
     "when": {
       "source": {
         "TY": [
-          "CASE",
-          "CTLG",
-          "GOVDOC",
-          "PAMP"
+          "CASE"
         ]
       },
       "target": {
         "type": [
-          "entry",
-          "legal_case",
-          "pamphlet",
-          "report"
+          "legal_case"
         ]
       }
     }
@@ -98,25 +90,6 @@
       "target": {
         "type": [
           "personal_communication"
-        ]
-      }
-    }
-  },
-  {
-    "source": [
-      "A2",
-      "AU"
-    ],
-    "target": "director",
-    "when": {
-      "source": {
-        "TY": [
-          "MPCT"
-        ]
-      },
-      "target": {
-        "type": [
-          "broadcast"
         ]
       }
     }
@@ -143,7 +116,8 @@
           "book",
           "chapter",
           "motion_picture",
-          "musical_score"
+          "musical_score",
+          "paper-conference"
         ]
       }
     }
@@ -224,22 +198,6 @@
           "entry-encyclopedia",
           "manuscript",
           "pamphlet"
-        ]
-      }
-    }
-  },
-  {
-    "source": "A4",
-    "target": "collection-editor",
-    "when": {
-      "source": {
-        "TY": [
-          "SER"
-        ]
-      },
-      "target": {
-        "type": [
-          "book"
         ]
       }
     }
@@ -445,6 +403,22 @@
   },
   {
     "source": "AU",
+    "target": "director",
+    "when": {
+      "source": {
+        "TY": [
+          "MPCT"
+        ]
+      },
+      "target": {
+        "type": [
+          "broadcast"
+        ]
+      }
+    }
+  },
+  {
+    "source": "AU",
     "target": "composer",
     "when": {
       "source": {
@@ -496,24 +470,6 @@
   },
   {
     "source": "C1",
-    "target": "publisher-place",
-    "when": {
-      "source": {
-        "TY": [
-          "CONF",
-          "CPAPER"
-        ]
-      },
-      "target": {
-        "type": [
-          "book",
-          "paper-conference"
-        ]
-      }
-    }
-  },
-  {
-    "source": "C1",
     "target": "scale",
     "when": {
       "source": {
@@ -540,7 +496,7 @@
       },
       "target": {
         "type": [
-          "book",
+          "paper-conference",
           "patent"
         ]
       }
@@ -631,7 +587,7 @@
       },
       "target": {
         "type": [
-          "book"
+          "paper-conference"
         ]
       }
     }
@@ -692,37 +648,32 @@
   },
   {
     "source": "C5",
-    "target": "medium",
+    "target": "issued",
     "when": {
       "source": {
         "TY": [
-          "ADVS",
-          "MPCT",
-          "SLIDE",
-          "SOUND",
-          "VIDEO"
+          "EBOOK"
         ]
       },
       "target": {
         "type": [
-          "broadcast",
-          "motion_picture"
+          "book"
         ]
       }
     }
   },
   {
     "source": "C5",
-    "target": "container-title",
+    "target": "number",
     "when": {
       "source": {
         "TY": [
-          "EJOUR"
+          "GRANT"
         ]
       },
       "target": {
         "type": [
-          "article-journal"
+          "article"
         ]
       }
     }
@@ -760,7 +711,10 @@
     }
   },
   {
-    "source": "C5",
+    "source": [
+      "C5",
+      "PB"
+    ],
     "target": "publisher",
     "when": {
       "source": {
@@ -771,25 +725,6 @@
       "target": {
         "type": [
           "legislation"
-        ]
-      }
-    }
-  },
-  {
-    "source": [
-      "C5",
-      "C6"
-    ],
-    "target": "number",
-    "when": {
-      "source": {
-        "TY": [
-          "GRANT"
-        ]
-      },
-      "target": {
-        "type": [
-          "article"
         ]
       }
     }
@@ -961,6 +896,7 @@
           "motion_picture",
           "musical_score",
           "pamphlet",
+          "paper-conference",
           "patent",
           "personal_communication",
           "post-weblog",
@@ -983,7 +919,6 @@
       },
       "target": {
         "type": [
-          "book",
           "paper-conference"
         ]
       }
@@ -1337,17 +1272,12 @@
     "when": {
       "source": {
         "TY": [
-          "ABST",
           "AGGR",
-          "DBASE",
-          "INPR",
-          "JFULL",
-          "JOUR"
+          "DBASE"
         ]
       },
       "target": {
         "type": [
-          "article-journal",
           "dataset"
         ]
       }
@@ -1409,6 +1339,7 @@
           "motion_picture",
           "musical_score",
           "pamphlet",
+          "paper-conference",
           "post-weblog",
           "report",
           "webpage"
@@ -1496,10 +1427,12 @@
   },
   {
     "source": "J2",
-    "target": "title-short",
+    "target": "container-title-short",
     "when": {
       "source": {
         "TY": [
+          "ABST",
+          "ANCIENT",
           "BOOK",
           "CHAP",
           "CTLG",
@@ -1508,8 +1441,12 @@
           "ENCYC",
           "GRANT",
           "ICOMM",
+          "INPR",
+          "JFULL",
+          "JOUR",
           "LEGAL",
           "MANSCPT",
+          "MGZN",
           "PAMP",
           "PCOMM",
           "SER",
@@ -1521,6 +1458,8 @@
       "target": {
         "type": [
           "article",
+          "article-journal",
+          "article-magazine",
           "book",
           "chapter",
           "dataset",
@@ -1532,29 +1471,6 @@
           "pamphlet",
           "personal_communication",
           "report"
-        ]
-      }
-    }
-  },
-  {
-    "source": "J2",
-    "target": "container-title-short",
-    "when": {
-      "source": {
-        "TY": [
-          "ABST",
-          "ANCIENT",
-          "INPR",
-          "JFULL",
-          "JOUR",
-          "MGZN"
-        ]
-      },
-      "target": {
-        "type": [
-          "article-journal",
-          "article-magazine",
-          "manuscript"
         ]
       }
     }
@@ -1972,7 +1888,7 @@
         "type": [
           "article-journal",
           "article-magazine",
-          "book",
+          "paper-conference",
           "report"
         ]
       }
@@ -2049,9 +1965,7 @@
   {
     "source": [
       "M1",
-      "NV",
-      "RI",
-      "VL"
+      "NV"
     ],
     "target": "number",
     "when": {
@@ -2124,6 +2038,30 @@
   },
   {
     "source": "M3",
+    "target": "medium",
+    "when": {
+      "source": {
+        "TY": [
+          "BLOG",
+          "EBOOK",
+          "ELEC",
+          "MPCT",
+          "MUSIC"
+        ]
+      },
+      "target": {
+        "type": [
+          "book",
+          "broadcast",
+          "musical_score",
+          "post-weblog",
+          "webpage"
+        ]
+      }
+    }
+  },
+  {
+    "source": "M3",
     "target": "genre",
     "when": {
       "source": {
@@ -2133,21 +2071,17 @@
           "AGGR",
           "ANCIENT",
           "ART",
-          "BLOG",
           "BOOK",
           "CHART",
           "CLSWK",
           "COMP",
           "CPAPER",
           "CTLG",
-          "DATA",
           "DBASE",
           "DICT",
-          "EBOOK",
           "ECHAP",
           "EDBOOK",
           "EJOUR",
-          "ELEC",
           "EQUA",
           "FIGURE",
           "GEN",
@@ -2196,28 +2130,8 @@
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
           "report",
-          "thesis",
-          "webpage"
-        ]
-      }
-    }
-  },
-  {
-    "source": "M3",
-    "target": "medium",
-    "when": {
-      "source": {
-        "TY": [
-          "MPCT",
-          "MUSIC"
-        ]
-      },
-      "target": {
-        "type": [
-          "broadcast",
-          "musical_score"
+          "thesis"
         ]
       }
     }
@@ -2352,7 +2266,8 @@
           "entry-encyclopedia",
           "interview",
           "manuscript",
-          "musical_score"
+          "musical_score",
+          "paper-conference"
         ]
       }
     }
@@ -2400,6 +2315,22 @@
   },
   {
     "source": "NV",
+    "target": "dimensions",
+    "when": {
+      "source": {
+        "TY": [
+          "GRANT"
+        ]
+      },
+      "target": {
+        "type": [
+          "article"
+        ]
+      }
+    }
+  },
+  {
+    "source": "NV",
     "target": "collection-number",
     "when": {
       "source": {
@@ -2409,28 +2340,6 @@
       },
       "target": {
         "type": [
-          "report"
-        ]
-      }
-    }
-  },
-  {
-    "source": [
-      "NV",
-      "SN",
-      "VL"
-    ],
-    "target": "number",
-    "when": {
-      "source": {
-        "TY": [
-          "LEGAL",
-          "STAND"
-        ]
-      },
-      "target": {
-        "type": [
-          "legislation",
           "report"
         ]
       }
@@ -2508,6 +2417,22 @@
   },
   {
     "source": "PB",
+    "target": "authority",
+    "when": {
+      "source": {
+        "TY": [
+          "CASE"
+        ]
+      },
+      "target": {
+        "type": [
+          "legal_case"
+        ]
+      }
+    }
+  },
+  {
+    "source": "PB",
     "target": "publisher",
     "when": {
       "source": {
@@ -2538,6 +2463,7 @@
           "FIGURE",
           "GEN",
           "GOVDOC",
+          "GRANT",
           "HEAR",
           "ICOMM",
           "LEGAL",
@@ -2593,22 +2519,6 @@
   },
   {
     "source": "PB",
-    "target": "authority",
-    "when": {
-      "source": {
-        "TY": [
-          "CASE"
-        ]
-      },
-      "target": {
-        "type": [
-          "legal_case"
-        ]
-      }
-    }
-  },
-  {
-    "source": "PB",
     "target": "archive",
     "when": {
       "source": {
@@ -2619,22 +2529,6 @@
       "target": {
         "type": [
           "manuscript"
-        ]
-      }
-    }
-  },
-  {
-    "source": "PB",
-    "target": "source",
-    "when": {
-      "source": {
-        "TY": [
-          "STAT"
-        ]
-      },
-      "target": {
-        "type": [
-          "legislation"
         ]
       }
     }
@@ -2744,7 +2638,7 @@
       },
       "target": {
         "type": [
-          "book"
+          "paper-conference"
         ]
       }
     }
@@ -2784,6 +2678,68 @@
           "entry-dictionary",
           "entry-encyclopedia",
           "manuscript"
+        ]
+      }
+    }
+  },
+  {
+    "source": "RI",
+    "target": "locator",
+    "when": {
+      "source": {
+        "TY": [
+          "STAT"
+        ]
+      },
+      "target": {
+        "type": [
+          "legislation"
+        ]
+      }
+    }
+  },
+  {
+    "source": "RP",
+    "target": "note",
+    "when": {
+      "source": {
+        "TY": [
+          "PAT",
+          "RPRT"
+        ]
+      },
+      "target": {
+        "type": [
+          "patent",
+          "report"
+        ]
+      }
+    }
+  },
+  {
+    "source": "SE",
+    "target": "section",
+    "when": {
+      "source": {
+        "TY": [
+          "BILL",
+          "GEN",
+          "GOVDOC",
+          "MUSIC",
+          "NEWS",
+          "STAT",
+          "UNBILL"
+        ]
+      },
+      "target": {
+        "type": [
+          "article-newspaper",
+          "bill",
+          "book",
+          "legislation",
+          "manuscript",
+          "musical_score",
+          "report"
         ]
       }
     }
@@ -2920,29 +2876,17 @@
   },
   {
     "source": "SE",
-    "target": "section",
+    "target": "locator",
     "when": {
       "source": {
         "TY": [
-          "BILL",
-          "GEN",
-          "GOVDOC",
           "LEGAL",
-          "MUSIC",
-          "NEWS",
-          "STAND",
-          "STAT",
-          "UNBILL"
+          "STAND"
         ]
       },
       "target": {
         "type": [
-          "article-newspaper",
-          "bill",
-          "book",
           "legislation",
-          "manuscript",
-          "musical_score",
           "report"
         ]
       }
@@ -3003,7 +2947,6 @@
           "COMP",
           "CONF",
           "CTLG",
-          "DATA",
           "DICT",
           "EBOOK",
           "ECHAP",
@@ -3023,7 +2966,6 @@
         "type": [
           "book",
           "chapter",
-          "dataset",
           "entry",
           "entry-dictionary",
           "entry-encyclopedia",
@@ -3032,6 +2974,7 @@
           "map",
           "motion_picture",
           "pamphlet",
+          "paper-conference",
           "post-weblog",
           "webpage"
         ]
@@ -3074,12 +3017,15 @@
         "TY": [
           "DBASE",
           "GOVDOC",
-          "RPRT"
+          "LEGAL",
+          "RPRT",
+          "STAND"
         ]
       },
       "target": {
         "type": [
           "dataset",
+          "legislation",
           "report"
         ]
       }
@@ -3285,6 +3231,7 @@
           "motion_picture",
           "musical_score",
           "pamphlet",
+          "paper-conference",
           "patent",
           "personal_communication",
           "post-weblog",
@@ -3322,7 +3269,6 @@
           "CLSWK",
           "COMP",
           "CTLG",
-          "DATA",
           "DBASE",
           "ELEC",
           "MANSCPT",
@@ -3360,8 +3306,60 @@
       },
       "target": {
         "type": [
-          "book",
           "paper-conference"
+        ]
+      }
+    }
+  },
+  {
+    "source": "T2",
+    "target": "container-title",
+    "when": {
+      "source": {
+        "TY": [
+          "ABST",
+          "ANCIENT",
+          "BILL",
+          "BLOG",
+          "CHAP",
+          "DICT",
+          "EBOOK",
+          "ECHAP",
+          "EDBOOK",
+          "EJOUR",
+          "ENCYC",
+          "GEN",
+          "INPR",
+          "JFULL",
+          "JOUR",
+          "MGZN",
+          "MUSIC",
+          "NEWS",
+          "PAMP",
+          "PAT",
+          "SER",
+          "STAT",
+          "THES",
+          "UNBILL"
+        ]
+      },
+      "target": {
+        "type": [
+          "article-journal",
+          "article-magazine",
+          "article-newspaper",
+          "bill",
+          "book",
+          "chapter",
+          "entry-dictionary",
+          "entry-encyclopedia",
+          "legislation",
+          "manuscript",
+          "musical_score",
+          "pamphlet",
+          "patent",
+          "post-weblog",
+          "thesis"
         ]
       }
     }
@@ -3384,73 +3382,32 @@
   },
   {
     "source": "T2",
-    "target": "container-title",
+    "target": "locator",
     "when": {
       "source": {
         "TY": [
-          "ABST",
-          "ANCIENT",
-          "BILL",
-          "BLOG",
-          "CHAP",
-          "DICT",
-          "EBOOK",
-          "ECHAP",
-          "EDBOOK",
-          "ENCYC",
-          "GEN",
-          "INPR",
-          "JFULL",
-          "JOUR",
-          "MGZN",
-          "MUSIC",
-          "NEWS",
-          "PAMP",
-          "PAT",
-          "SER",
-          "STAND",
-          "STAT",
-          "THES",
-          "UNBILL"
+          "LEGAL"
         ]
       },
       "target": {
         "type": [
-          "article-journal",
-          "article-magazine",
-          "article-newspaper",
-          "bill",
-          "book",
-          "chapter",
-          "entry-dictionary",
-          "entry-encyclopedia",
-          "legislation",
-          "manuscript",
-          "musical_score",
-          "pamphlet",
-          "patent",
-          "post-weblog",
-          "report",
-          "thesis"
+          "legislation"
         ]
       }
     }
   },
   {
-    "source": [
-      "T2",
-      "T3"
-    ],
-    "target": "collection-title",
+    "source": "T2",
+    "target": "section",
     "when": {
       "source": {
         "TY": [
-          "EJOUR"
+          "STAND"
         ]
       },
       "target": {
         "type": [
-          "article-journal"
+          "report"
         ]
       }
     }
@@ -3468,6 +3425,7 @@
           "DATA",
           "EBOOK",
           "ECHAP",
+          "EJOUR",
           "GEN",
           "GOVDOC",
           "MUSIC",
@@ -3479,12 +3437,14 @@
       },
       "target": {
         "type": [
+          "article-journal",
           "book",
           "chapter",
           "dataset",
           "manuscript",
           "motion_picture",
           "musical_score",
+          "paper-conference",
           "report"
         ]
       }
@@ -3910,70 +3870,6 @@
   },
   {
     "source": "VL",
-    "target": "volume",
-    "when": {
-      "source": {
-        "TY": [
-          "ABST",
-          "ADVS",
-          "AGGR",
-          "ANCIENT",
-          "BILL",
-          "BOOK",
-          "CASE",
-          "CHAP",
-          "CLSWK",
-          "CONF",
-          "CPAPER",
-          "CTLG",
-          "DBASE",
-          "DICT",
-          "EBOOK",
-          "ECHAP",
-          "EDBOOK",
-          "EJOUR",
-          "ENCYC",
-          "GEN",
-          "GOVDOC",
-          "INPR",
-          "JFULL",
-          "JOUR",
-          "MANSCPT",
-          "MGZN",
-          "MUSIC",
-          "NEWS",
-          "RPRT",
-          "SER",
-          "SLIDE",
-          "SOUND",
-          "UNBILL",
-          "VIDEO"
-        ]
-      },
-      "target": {
-        "type": [
-          "article-journal",
-          "article-magazine",
-          "article-newspaper",
-          "bill",
-          "book",
-          "chapter",
-          "dataset",
-          "entry",
-          "entry-dictionary",
-          "entry-encyclopedia",
-          "legal_case",
-          "manuscript",
-          "motion_picture",
-          "musical_score",
-          "paper-conference",
-          "report"
-        ]
-      }
-    }
-  },
-  {
-    "source": "VL",
     "target": "accessed",
     "when": {
       "source": {
@@ -4015,14 +3911,79 @@
     "when": {
       "source": {
         "TY": [
-          "COMP",
-          "DATA"
+          "COMP"
         ]
       },
       "target": {
         "type": [
+          "book"
+        ]
+      }
+    }
+  },
+  {
+    "source": "VL",
+    "target": "volume",
+    "when": {
+      "source": {
+        "TY": [
+          "ABST",
+          "ADVS",
+          "AGGR",
+          "ANCIENT",
+          "BILL",
+          "BOOK",
+          "CASE",
+          "CHAP",
+          "CLSWK",
+          "CONF",
+          "CPAPER",
+          "CTLG",
+          "DBASE",
+          "DICT",
+          "EBOOK",
+          "ECHAP",
+          "EDBOOK",
+          "EJOUR",
+          "ENCYC",
+          "GEN",
+          "GOVDOC",
+          "INPR",
+          "JFULL",
+          "JOUR",
+          "LEGAL",
+          "MANSCPT",
+          "MGZN",
+          "MUSIC",
+          "NEWS",
+          "RPRT",
+          "SER",
+          "SLIDE",
+          "SOUND",
+          "STAND",
+          "UNBILL",
+          "VIDEO"
+        ]
+      },
+      "target": {
+        "type": [
+          "article-journal",
+          "article-magazine",
+          "article-newspaper",
+          "bill",
           "book",
-          "dataset"
+          "chapter",
+          "dataset",
+          "entry",
+          "entry-dictionary",
+          "entry-encyclopedia",
+          "legal_case",
+          "legislation",
+          "manuscript",
+          "motion_picture",
+          "musical_score",
+          "paper-conference",
+          "report"
         ]
       }
     }
