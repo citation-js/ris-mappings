@@ -5,8 +5,10 @@ const TYPES = require('./types')
 const PROPS = require('./props')
 const MAPPINGS = require('./mappings_summary')
 
-const NUMBER_OF_RIS_TYPES = Object.keys(TYPES.RIS).length
-const NUMBER_OF_CSL_TYPES = Object.keys(TYPES.CSL).length
+const RIS_TYPES = Object.keys(TYPES.RIS)
+const CSL_TYPES = Object.keys(TYPES.CSL)
+const NUMBER_OF_RIS_TYPES = RIS_TYPES.length
+const NUMBER_OF_CSL_TYPES = CSL_TYPES.length
 
 function merge (row, otherRow) {
   for (let prop in row) {
@@ -28,14 +30,14 @@ function compare (a, b, distinct) {
     isSubset(b[column], a[column]))
 }
 
-let counter = 0
-
 function prune (table, distinct) {
   for (let row of table) {
-    for (let otherRow of table) {
+    for (let i = 0; i < table.length; i++) {
+      const otherRow = table[i]
+
       if (row !== otherRow && compare(row, otherRow, distinct)) {
         merge(row, otherRow)
-        table.splice(table.indexOf(otherRow), 1)
+        table.splice(i--, 1)
       }
     }
   }
@@ -46,12 +48,12 @@ async function main () {
     {
       tag: ['TY'],
       prop: ['type'],
-      type: Object.keys(TYPES.RIS)
+      type: RIS_TYPES
     },
     {
       tag: ['ID'],
       prop: ['id'],
-      type: Object.keys(TYPES.RIS)
+      type: RIS_TYPES
     }
   ]
 
@@ -93,9 +95,8 @@ async function main () {
     if (mapping.when.source.TY.length === NUMBER_OF_RIS_TYPES) {
       delete mapping.when
     } else {
-      mapping.when.target = {
-        type: unique(mapping.when.source.TY.map(type => TYPES.RIS[type])).sort()
-      }
+      const targetTypes = getTargetTypes(mapping.when.source.TY)
+      mapping.when.target = targetTypes.length ? { type: targetTypes } : false
     }
     return mapping
   }).sort((a, b) => a.source < b.source ? -1 : a.source > b.source ? 1 : 0)
@@ -104,6 +105,13 @@ async function main () {
 }
 
 main()
+
+function getTargetTypes (sourceTypes) {
+  return unique(sourceTypes
+    .map(sourceType => CSL_TYPES.find(targetType => TYPES.CSL[targetType] === sourceType))
+    .filter(Boolean)
+    .sort())
+}
 
 function split (array, predicate) {
   return array.reduce((result, value, index, array) => {

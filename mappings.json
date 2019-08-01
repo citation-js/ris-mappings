@@ -20,14 +20,12 @@
       },
       "target": {
         "type": [
-          "book",
           "chapter",
           "entry-dictionary",
           "entry-encyclopedia",
-          "manuscript",
           "musical_score",
           "paper-conference",
-          "post-weblog"
+          "post-webblog"
         ]
       }
     }
@@ -52,11 +50,8 @@
       "target": {
         "type": [
           "book",
-          "manuscript",
           "map",
-          "motion_picture",
-          "report",
-          "webpage"
+          "report"
         ]
       }
     }
@@ -89,7 +84,8 @@
       },
       "target": {
         "type": [
-          "personal_communication"
+          "personal_communication",
+          "post"
         ]
       }
     }
@@ -113,11 +109,10 @@
       },
       "target": {
         "type": [
-          "book",
           "chapter",
-          "motion_picture",
           "musical_score",
-          "paper-conference"
+          "paper-conference",
+          "song"
         ]
       }
     }
@@ -133,7 +128,7 @@
       },
       "target": {
         "type": [
-          "post-weblog"
+          "post-webblog"
         ]
       }
     }
@@ -190,13 +185,10 @@
       },
       "target": {
         "type": [
-          "article",
           "book",
           "chapter",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
-          "manuscript",
           "pamphlet"
         ]
       }
@@ -269,7 +261,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -277,7 +268,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -287,16 +277,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -359,28 +349,27 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "book",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
           "graphic",
+          "interview",
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -394,11 +383,7 @@
           "EDBOOK"
         ]
       },
-      "target": {
-        "type": [
-          "book"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -462,7 +447,6 @@
       },
       "target": {
         "type": [
-          "book",
           "chapter"
         ]
       }
@@ -516,7 +500,7 @@
       },
       "target": {
         "type": [
-          "article-journal"
+          "article"
         ]
       }
     }
@@ -546,11 +530,7 @@
           "SER"
         ]
       },
-      "target": {
-        "type": [
-          "book"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -571,7 +551,7 @@
         "type": [
           "graphic",
           "map",
-          "motion_picture"
+          "song"
         ]
       }
     }
@@ -601,11 +581,7 @@
           "EJOUR"
         ]
       },
-      "target": {
-        "type": [
-          "article-journal"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -639,7 +615,6 @@
       },
       "target": {
         "type": [
-          "article-journal",
           "book",
           "chapter"
         ]
@@ -655,11 +630,7 @@
           "EBOOK"
         ]
       },
-      "target": {
-        "type": [
-          "book"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -671,11 +642,7 @@
           "GRANT"
         ]
       },
-      "target": {
-        "type": [
-          "article"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -687,11 +654,7 @@
           "MULTI"
         ]
       },
-      "target": {
-        "type": [
-          "motion_picture"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -722,11 +685,7 @@
           "STAT"
         ]
       },
-      "target": {
-        "type": [
-          "legislation"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -770,11 +729,7 @@
           "STAT"
         ]
       },
-      "target": {
-        "type": [
-          "legislation"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -792,7 +747,7 @@
       },
       "target": {
         "type": [
-          "article-journal"
+          "article"
         ]
       }
     }
@@ -807,12 +762,7 @@
           "ECHAP"
         ]
       },
-      "target": {
-        "type": [
-          "book",
-          "chapter"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -875,7 +825,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -883,7 +832,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -893,16 +841,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -938,15 +886,7 @@
           "MULTI"
         ]
       },
-      "target": {
-        "type": [
-          "article-journal",
-          "book",
-          "chapter",
-          "dataset",
-          "motion_picture"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1001,12 +941,10 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "bill",
           "book",
           "dataset",
-          "entry",
           "entry-encyclopedia",
           "figure",
           "graphic",
@@ -1014,16 +952,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -1061,11 +999,7 @@
           "STAT"
         ]
       },
-      "target": {
-        "type": [
-          "legislation"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1135,7 +1069,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -1143,7 +1076,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1153,16 +1085,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -1234,7 +1166,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -1242,7 +1173,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1252,16 +1182,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -1276,11 +1206,7 @@
           "DBASE"
         ]
       },
-      "target": {
-        "type": [
-          "dataset"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1323,26 +1249,23 @@
       },
       "target": {
         "type": [
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "book",
           "broadcast",
           "chapter",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "graphic",
+          "interview",
           "legislation",
-          "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
-          "post-weblog",
+          "post-webblog",
           "report",
-          "webpage"
+          "song"
         ]
       }
     }
@@ -1362,8 +1285,6 @@
       },
       "target": {
         "type": [
-          "article",
-          "book",
           "dataset",
           "figure"
         ]
@@ -1420,7 +1341,7 @@
       },
       "target": {
         "type": [
-          "article-journal"
+          "article"
         ]
       }
     }
@@ -1458,19 +1379,17 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "book",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "legislation",
           "manuscript",
           "pamphlet",
           "personal_communication",
-          "report"
+          "post"
         ]
       }
     }
@@ -1542,7 +1461,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -1550,7 +1468,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1560,16 +1477,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -1583,11 +1500,7 @@
           "HEAR"
         ]
       },
-      "target": {
-        "type": [
-          "interview"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1657,7 +1570,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -1665,7 +1577,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1675,16 +1586,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -1755,14 +1666,12 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "bill",
           "book",
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1772,32 +1681,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
-        ]
-      }
-    }
-  },
-  {
-    "source": "M1",
-    "target": "dimensions",
-    "when": {
-      "source": {
-        "TY": [
-          "ART"
-        ]
-      },
-      "target": {
-        "type": [
-          "graphic"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -1832,18 +1725,32 @@
       },
       "target": {
         "type": [
-          "article",
           "bill",
-          "book",
-          "dataset",
           "entry-dictionary",
           "figure",
           "interview",
           "manuscript",
-          "motion_picture",
           "personal_communication",
+          "post",
           "report",
+          "song",
           "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "M1",
+    "target": "dimensions",
+    "when": {
+      "source": {
+        "TY": [
+          "ART"
+        ]
+      },
+      "target": {
+        "type": [
+          "graphic"
         ]
       }
     }
@@ -1865,8 +1772,6 @@
       "target": {
         "type": [
           "book",
-          "entry",
-          "manuscript",
           "pamphlet"
         ]
       }
@@ -1886,10 +1791,8 @@
       },
       "target": {
         "type": [
-          "article-journal",
           "article-magazine",
-          "paper-conference",
-          "report"
+          "paper-conference"
         ]
       }
     }
@@ -1903,11 +1806,7 @@
           "ECHAP"
         ]
       },
-      "target": {
-        "type": [
-          "chapter"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1919,11 +1818,7 @@
           "GRANT"
         ]
       },
-      "target": {
-        "type": [
-          "article"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1940,8 +1835,7 @@
       "target": {
         "type": [
           "article-newspaper",
-          "legislation",
-          "report"
+          "legislation"
         ]
       }
     }
@@ -1955,11 +1849,7 @@
           "ELEC"
         ]
       },
-      "target": {
-        "type": [
-          "webpage"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -1974,11 +1864,7 @@
           "STAT"
         ]
       },
-      "target": {
-        "type": [
-          "legislation"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -2015,7 +1901,7 @@
       },
       "target": {
         "type": [
-          "article-journal"
+          "article"
         ]
       }
     }
@@ -2032,30 +1918,6 @@
       "target": {
         "type": [
           "pamphlet"
-        ]
-      }
-    }
-  },
-  {
-    "source": "M3",
-    "target": "medium",
-    "when": {
-      "source": {
-        "TY": [
-          "BLOG",
-          "EBOOK",
-          "ELEC",
-          "MPCT",
-          "MUSIC"
-        ]
-      },
-      "target": {
-        "type": [
-          "book",
-          "broadcast",
-          "musical_score",
-          "post-weblog",
-          "webpage"
         ]
       }
     }
@@ -2112,26 +1974,45 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "book",
-          "chapter",
-          "dataset",
-          "entry",
           "entry-dictionary",
           "figure",
           "graphic",
+          "interview",
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "pamphlet",
-          "paper-conference",
           "patent",
           "personal_communication",
+          "post",
           "report",
+          "song",
           "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "M3",
+    "target": "medium",
+    "when": {
+      "source": {
+        "TY": [
+          "BLOG",
+          "EBOOK",
+          "ELEC",
+          "MPCT",
+          "MUSIC"
+        ]
+      },
+      "target": {
+        "type": [
+          "broadcast",
+          "musical_score",
+          "post-webblog"
         ]
       }
     }
@@ -2206,7 +2087,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -2214,7 +2094,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -2224,16 +2103,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -2261,11 +2140,9 @@
       "target": {
         "type": [
           "book",
-          "chapter",
           "entry-dictionary",
           "entry-encyclopedia",
           "interview",
-          "manuscript",
           "musical_score",
           "paper-conference"
         ]
@@ -2288,11 +2165,10 @@
       },
       "target": {
         "type": [
-          "article-journal",
           "dataset",
-          "entry",
           "manuscript",
-          "personal_communication"
+          "personal_communication",
+          "post"
         ]
       }
     }
@@ -2306,11 +2182,7 @@
           "EBOOK"
         ]
       },
-      "target": {
-        "type": [
-          "book"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -2322,11 +2194,7 @@
           "GRANT"
         ]
       },
-      "target": {
-        "type": [
-          "article"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -2375,15 +2243,13 @@
       },
       "target": {
         "type": [
-          "article-journal",
+          "article",
           "article-magazine",
           "book",
           "chapter",
-          "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
-          "manuscript",
+          "interview",
           "musical_score",
           "pamphlet"
         ]
@@ -2407,26 +2273,8 @@
       "target": {
         "type": [
           "bill",
-          "interview",
           "legal_case",
-          "legislation",
-          "manuscript"
-        ]
-      }
-    }
-  },
-  {
-    "source": "PB",
-    "target": "authority",
-    "when": {
-      "source": {
-        "TY": [
-          "CASE"
-        ]
-      },
-      "target": {
-        "type": [
-          "legal_case"
+          "legislation"
         ]
       }
     }
@@ -2487,32 +2335,44 @@
       },
       "target": {
         "type": [
-          "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "book",
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
           "graphic",
           "interview",
           "legislation",
-          "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "PB",
+    "target": "authority",
+    "when": {
+      "source": {
+        "TY": [
+          "CASE"
+        ]
+      },
+      "target": {
+        "type": [
+          "legal_case"
         ]
       }
     }
@@ -2597,14 +2457,12 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
           "book",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -2613,16 +2471,15 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
-          "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -2670,14 +2527,12 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
-          "book",
           "chapter",
           "entry-dictionary",
           "entry-encyclopedia",
-          "manuscript"
+          "interview"
         ]
       }
     }
@@ -2691,11 +2546,7 @@
           "STAT"
         ]
       },
-      "target": {
-        "type": [
-          "legislation"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -2735,11 +2586,8 @@
         "type": [
           "article-newspaper",
           "bill",
-          "book",
-          "legislation",
-          "manuscript",
-          "musical_score",
-          "report"
+          "interview",
+          "musical_score"
         ]
       }
     }
@@ -2755,7 +2603,7 @@
       },
       "target": {
         "type": [
-          "post-weblog"
+          "post-webblog"
         ]
       }
     }
@@ -2772,7 +2620,6 @@
       },
       "target": {
         "type": [
-          "book",
           "chapter"
         ]
       }
@@ -2819,11 +2666,7 @@
           "CTLG"
         ]
       },
-      "target": {
-        "type": [
-          "entry"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -2867,11 +2710,7 @@
           "EJOUR"
         ]
       },
-      "target": {
-        "type": [
-          "article-journal"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -2886,8 +2725,7 @@
       },
       "target": {
         "type": [
-          "legislation",
-          "report"
+          "legislation"
         ]
       }
     }
@@ -2926,9 +2764,7 @@
       },
       "target": {
         "type": [
-          "book",
-          "dataset",
-          "manuscript"
+          "interview"
         ]
       }
     }
@@ -2966,17 +2802,13 @@
         "type": [
           "book",
           "chapter",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
-          "interview",
-          "manuscript",
           "map",
-          "motion_picture",
           "pamphlet",
           "paper-conference",
-          "post-weblog",
-          "webpage"
+          "post-webblog",
+          "song"
         ]
       }
     }
@@ -3000,7 +2832,7 @@
       },
       "target": {
         "type": [
-          "article-journal",
+          "article",
           "article-magazine",
           "article-newspaper",
           "dataset",
@@ -3024,7 +2856,6 @@
       },
       "target": {
         "type": [
-          "dataset",
           "legislation",
           "report"
         ]
@@ -3077,14 +2908,10 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
-          "book",
           "chapter",
-          "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "interview",
@@ -3095,6 +2922,7 @@
           "paper-conference",
           "patent",
           "personal_communication",
+          "post",
           "report"
         ]
       }
@@ -3116,7 +2944,6 @@
       "target": {
         "type": [
           "book",
-          "manuscript",
           "thesis"
         ]
       }
@@ -3211,7 +3038,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -3219,25 +3045,23 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "graphic",
           "interview",
           "legal_case",
-          "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -3283,30 +3107,9 @@
         "type": [
           "book",
           "broadcast",
-          "dataset",
-          "entry",
           "manuscript",
           "map",
-          "motion_picture",
-          "report",
-          "webpage"
-        ]
-      }
-    }
-  },
-  {
-    "source": "T2",
-    "target": "event",
-    "when": {
-      "source": {
-        "TY": [
-          "CONF",
-          "CPAPER"
-        ]
-      },
-      "target": {
-        "type": [
-          "paper-conference"
+          "report"
         ]
       }
     }
@@ -3345,21 +3148,36 @@
       },
       "target": {
         "type": [
-          "article-journal",
+          "article",
           "article-magazine",
           "article-newspaper",
           "bill",
-          "book",
           "chapter",
           "entry-dictionary",
           "entry-encyclopedia",
-          "legislation",
-          "manuscript",
+          "interview",
           "musical_score",
           "pamphlet",
           "patent",
-          "post-weblog",
+          "post-webblog",
           "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "T2",
+    "target": "event",
+    "when": {
+      "source": {
+        "TY": [
+          "CONF",
+          "CPAPER"
+        ]
+      },
+      "target": {
+        "type": [
+          "paper-conference"
         ]
       }
     }
@@ -3373,11 +3191,7 @@
           "HEAR"
         ]
       },
-      "target": {
-        "type": [
-          "interview"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -3405,11 +3219,7 @@
           "STAND"
         ]
       },
-      "target": {
-        "type": [
-          "report"
-        ]
-      }
+      "target": false
     }
   },
   {
@@ -3437,15 +3247,12 @@
       },
       "target": {
         "type": [
-          "article-journal",
-          "book",
           "chapter",
           "dataset",
-          "manuscript",
-          "motion_picture",
+          "interview",
           "musical_score",
           "paper-conference",
-          "report"
+          "song"
         ]
       }
     }
@@ -3462,8 +3269,7 @@
       },
       "target": {
         "type": [
-          "legislation",
-          "report"
+          "legislation"
         ]
       }
     }
@@ -3535,7 +3341,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -3543,7 +3348,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3553,16 +3357,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -3634,7 +3438,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -3642,7 +3445,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3652,16 +3454,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -3733,7 +3535,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -3741,7 +3542,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3751,16 +3551,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -3836,7 +3636,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -3844,7 +3643,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3854,69 +3652,16 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
-          "thesis",
-          "webpage"
-        ]
-      }
-    }
-  },
-  {
-    "source": "VL",
-    "target": "accessed",
-    "when": {
-      "source": {
-        "TY": [
-          "BLOG",
-          "ELEC"
-        ]
-      },
-      "target": {
-        "type": [
-          "post-weblog",
-          "webpage"
-        ]
-      }
-    }
-  },
-  {
-    "source": "VL",
-    "target": "dimensions",
-    "when": {
-      "source": {
-        "TY": [
-          "CHART",
-          "EQUA",
-          "FIGURE"
-        ]
-      },
-      "target": {
-        "type": [
-          "article",
-          "figure"
-        ]
-      }
-    }
-  },
-  {
-    "source": "VL",
-    "target": "edition",
-    "when": {
-      "source": {
-        "TY": [
-          "COMP"
-        ]
-      },
-      "target": {
-        "type": [
-          "book"
+          "song",
+          "thesis"
         ]
       }
     }
@@ -3967,25 +3712,71 @@
       },
       "target": {
         "type": [
-          "article-journal",
+          "article",
           "article-magazine",
           "article-newspaper",
           "bill",
           "book",
           "chapter",
-          "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
+          "interview",
           "legal_case",
           "legislation",
           "manuscript",
-          "motion_picture",
           "musical_score",
           "paper-conference",
-          "report"
+          "report",
+          "song"
         ]
       }
+    }
+  },
+  {
+    "source": "VL",
+    "target": "accessed",
+    "when": {
+      "source": {
+        "TY": [
+          "BLOG",
+          "ELEC"
+        ]
+      },
+      "target": {
+        "type": [
+          "post-webblog"
+        ]
+      }
+    }
+  },
+  {
+    "source": "VL",
+    "target": "dimensions",
+    "when": {
+      "source": {
+        "TY": [
+          "CHART",
+          "EQUA",
+          "FIGURE"
+        ]
+      },
+      "target": {
+        "type": [
+          "figure"
+        ]
+      }
+    }
+  },
+  {
+    "source": "VL",
+    "target": "edition",
+    "when": {
+      "source": {
+        "TY": [
+          "COMP"
+        ]
+      },
+      "target": false
     }
   },
   {
@@ -4080,7 +3871,6 @@
       "target": {
         "type": [
           "article",
-          "article-journal",
           "article-magazine",
           "article-newspaper",
           "bill",
@@ -4088,7 +3878,6 @@
           "broadcast",
           "chapter",
           "dataset",
-          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -4098,14 +3887,15 @@
           "legislation",
           "manuscript",
           "map",
-          "motion_picture",
           "musical_score",
           "pamphlet",
           "paper-conference",
           "patent",
           "personal_communication",
-          "post-weblog",
+          "post",
+          "post-webblog",
           "report",
+          "song",
           "thesis"
         ]
       }
