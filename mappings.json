@@ -296,6 +296,89 @@
   },
   {
     "source": "AU",
+    "target": "author",
+    "when": {
+      "source": {
+        "TY": [
+          "ABST",
+          "ADVS",
+          "AGGR",
+          "ANCIENT",
+          "ART",
+          "BLOG",
+          "BOOK",
+          "CHAP",
+          "CHART",
+          "CLSWK",
+          "COMP",
+          "CONF",
+          "CPAPER",
+          "CTLG",
+          "DATA",
+          "DBASE",
+          "DICT",
+          "EBOOK",
+          "ECHAP",
+          "EJOUR",
+          "ELEC",
+          "ENCYC",
+          "EQUA",
+          "FIGURE",
+          "GEN",
+          "GOVDOC",
+          "GRANT",
+          "ICOMM",
+          "INPR",
+          "JFULL",
+          "JOUR",
+          "LEGAL",
+          "MANSCPT",
+          "MAP",
+          "MGZN",
+          "MULTI",
+          "PAMP",
+          "PAT",
+          "PCOMM",
+          "RPRT",
+          "SER",
+          "SLIDE",
+          "SOUND",
+          "STAND",
+          "THES",
+          "UNPB",
+          "VIDEO"
+        ]
+      },
+      "target": {
+        "type": [
+          "article",
+          "article-magazine",
+          "book",
+          "chapter",
+          "dataset",
+          "entry-dictionary",
+          "entry-encyclopedia",
+          "figure",
+          "graphic",
+          "interview",
+          "legislation",
+          "manuscript",
+          "map",
+          "pamphlet",
+          "paper-conference",
+          "patent",
+          "personal_communication",
+          "post",
+          "post-webblog",
+          "report",
+          "song",
+          "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "AU",
     "target": "editor",
     "when": {
       "source": {
@@ -350,110 +433,6 @@
       "target": {
         "type": [
           "article-newspaper"
-        ]
-      }
-    }
-  },
-  {
-    "source": [
-      "AU",
-      "C4",
-      "TA"
-    ],
-    "target": "author",
-    "when": {
-      "source": {
-        "TY": [
-          "BOOK",
-          "CHAP",
-          "EBOOK",
-          "ECHAP",
-          "EJOUR"
-        ]
-      },
-      "target": {
-        "type": [
-          "book",
-          "chapter"
-        ]
-      }
-    }
-  },
-  {
-    "source": [
-      "AU",
-      "TA"
-    ],
-    "target": "author",
-    "when": {
-      "source": {
-        "TY": [
-          "ABST",
-          "ADVS",
-          "AGGR",
-          "ANCIENT",
-          "ART",
-          "BLOG",
-          "CHART",
-          "CLSWK",
-          "COMP",
-          "CONF",
-          "CPAPER",
-          "CTLG",
-          "DATA",
-          "DBASE",
-          "DICT",
-          "ELEC",
-          "ENCYC",
-          "EQUA",
-          "FIGURE",
-          "GEN",
-          "GOVDOC",
-          "GRANT",
-          "ICOMM",
-          "INPR",
-          "JFULL",
-          "JOUR",
-          "LEGAL",
-          "MANSCPT",
-          "MAP",
-          "MGZN",
-          "MULTI",
-          "PAMP",
-          "PAT",
-          "PCOMM",
-          "RPRT",
-          "SER",
-          "SLIDE",
-          "SOUND",
-          "STAND",
-          "THES",
-          "UNPB",
-          "VIDEO"
-        ]
-      },
-      "target": {
-        "type": [
-          "article",
-          "article-magazine",
-          "dataset",
-          "entry-dictionary",
-          "entry-encyclopedia",
-          "figure",
-          "graphic",
-          "interview",
-          "legislation",
-          "manuscript",
-          "map",
-          "pamphlet",
-          "paper-conference",
-          "patent",
-          "personal_communication",
-          "post",
-          "post-webblog",
-          "report",
-          "song",
-          "thesis"
         ]
       }
     }
@@ -658,6 +637,27 @@
       "target": {
         "type": [
           "graphic"
+        ]
+      }
+    }
+  },
+  {
+    "source": "C4",
+    "target": "reviewer",
+    "when": {
+      "source": {
+        "TY": [
+          "BOOK",
+          "CHAP",
+          "EBOOK",
+          "ECHAP",
+          "EJOUR"
+        ]
+      },
+      "target": {
+        "type": [
+          "book",
+          "chapter"
         ]
       }
     }
@@ -2528,23 +2528,7 @@
   },
   {
     "source": "RI",
-    "target": "locator",
-    "when": {
-      "source": {
-        "TY": [
-          "STAT"
-        ]
-      },
-      "target": false
-    }
-  },
-  {
-    "source": [
-      "RI",
-      "TI",
-      "TT"
-    ],
-    "target": "title",
+    "target": "reviewed-title",
     "when": {
       "source": {
         "TY": [
@@ -2577,6 +2561,18 @@
           "interview"
         ]
       }
+    }
+  },
+  {
+    "source": "RI",
+    "target": "locator",
+    "when": {
+      "source": {
+        "TY": [
+          "STAT"
+        ]
+      },
+      "target": false
     }
   },
   {
@@ -3269,48 +3265,20 @@
   },
   {
     "source": "TA",
-    "target": "author",
+    "target": "translated_author",
     "when": {
       "source": {
         "TY": [
-          "BILL",
-          "CASE",
-          "EDBOOK",
-          "HEAR",
-          "MPCT",
-          "MUSIC",
-          "NEWS",
-          "STAT",
-          "UNBILL"
-        ]
-      },
-      "target": {
-        "type": [
-          "article-newspaper",
-          "bill",
-          "broadcast",
-          "legal_case",
-          "musical_score"
-        ]
-      }
-    }
-  },
-  {
-    "source": [
-      "TI",
-      "TT"
-    ],
-    "target": "title",
-    "when": {
-      "source": {
-        "TY": [
+          "ABST",
           "ADVS",
           "AGGR",
+          "ANCIENT",
           "ART",
           "BILL",
           "BLOG",
           "BOOK",
           "CASE",
+          "CHAP",
           "CHART",
           "CLSWK",
           "COMP",
@@ -3319,23 +3287,36 @@
           "CTLG",
           "DATA",
           "DBASE",
+          "DICT",
+          "EBOOK",
+          "ECHAP",
           "EDBOOK",
+          "EJOUR",
           "ELEC",
+          "ENCYC",
           "EQUA",
           "FIGURE",
+          "GEN",
           "GOVDOC",
+          "GRANT",
           "HEAR",
           "ICOMM",
+          "INPR",
+          "JFULL",
+          "JOUR",
           "LEGAL",
           "MANSCPT",
           "MAP",
+          "MGZN",
           "MPCT",
           "MULTI",
           "MUSIC",
+          "NEWS",
           "PAMP",
           "PAT",
           "PCOMM",
           "RPRT",
+          "SER",
           "SLIDE",
           "SOUND",
           "STAND",
@@ -3348,12 +3329,213 @@
       },
       "target": {
         "type": [
+          "article",
+          "article-magazine",
+          "article-newspaper",
           "bill",
           "book",
           "broadcast",
+          "chapter",
           "dataset",
+          "entry-dictionary",
+          "entry-encyclopedia",
           "figure",
           "graphic",
+          "interview",
+          "legal_case",
+          "legislation",
+          "manuscript",
+          "map",
+          "musical_score",
+          "pamphlet",
+          "paper-conference",
+          "patent",
+          "personal_communication",
+          "post",
+          "post-webblog",
+          "report",
+          "song",
+          "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "TI",
+    "target": "title",
+    "when": {
+      "source": {
+        "TY": [
+          "ABST",
+          "ADVS",
+          "AGGR",
+          "ANCIENT",
+          "ART",
+          "BILL",
+          "BLOG",
+          "BOOK",
+          "CASE",
+          "CHAP",
+          "CHART",
+          "CLSWK",
+          "COMP",
+          "CONF",
+          "CPAPER",
+          "CTLG",
+          "DATA",
+          "DBASE",
+          "DICT",
+          "EBOOK",
+          "ECHAP",
+          "EDBOOK",
+          "EJOUR",
+          "ELEC",
+          "ENCYC",
+          "EQUA",
+          "FIGURE",
+          "GEN",
+          "GOVDOC",
+          "GRANT",
+          "HEAR",
+          "ICOMM",
+          "INPR",
+          "JFULL",
+          "JOUR",
+          "LEGAL",
+          "MANSCPT",
+          "MAP",
+          "MGZN",
+          "MPCT",
+          "MULTI",
+          "MUSIC",
+          "NEWS",
+          "PAMP",
+          "PAT",
+          "PCOMM",
+          "RPRT",
+          "SER",
+          "SLIDE",
+          "SOUND",
+          "STAND",
+          "STAT",
+          "THES",
+          "UNBILL",
+          "UNPB",
+          "VIDEO"
+        ]
+      },
+      "target": {
+        "type": [
+          "article",
+          "article-magazine",
+          "article-newspaper",
+          "bill",
+          "book",
+          "broadcast",
+          "chapter",
+          "dataset",
+          "entry-dictionary",
+          "entry-encyclopedia",
+          "figure",
+          "graphic",
+          "interview",
+          "legal_case",
+          "legislation",
+          "manuscript",
+          "map",
+          "musical_score",
+          "pamphlet",
+          "paper-conference",
+          "patent",
+          "personal_communication",
+          "post",
+          "post-webblog",
+          "report",
+          "song",
+          "thesis"
+        ]
+      }
+    }
+  },
+  {
+    "source": "TT",
+    "target": "translated_title",
+    "when": {
+      "source": {
+        "TY": [
+          "ABST",
+          "ADVS",
+          "AGGR",
+          "ANCIENT",
+          "ART",
+          "BILL",
+          "BLOG",
+          "BOOK",
+          "CASE",
+          "CHAP",
+          "CHART",
+          "CLSWK",
+          "COMP",
+          "CONF",
+          "CPAPER",
+          "CTLG",
+          "DATA",
+          "DBASE",
+          "DICT",
+          "EBOOK",
+          "ECHAP",
+          "EDBOOK",
+          "EJOUR",
+          "ELEC",
+          "ENCYC",
+          "EQUA",
+          "FIGURE",
+          "GEN",
+          "GOVDOC",
+          "GRANT",
+          "HEAR",
+          "ICOMM",
+          "INPR",
+          "JFULL",
+          "JOUR",
+          "LEGAL",
+          "MANSCPT",
+          "MAP",
+          "MGZN",
+          "MPCT",
+          "MULTI",
+          "MUSIC",
+          "NEWS",
+          "PAMP",
+          "PAT",
+          "PCOMM",
+          "RPRT",
+          "SER",
+          "SLIDE",
+          "SOUND",
+          "STAND",
+          "STAT",
+          "THES",
+          "UNBILL",
+          "UNPB",
+          "VIDEO"
+        ]
+      },
+      "target": {
+        "type": [
+          "article",
+          "article-magazine",
+          "article-newspaper",
+          "bill",
+          "book",
+          "broadcast",
+          "chapter",
+          "dataset",
+          "entry-dictionary",
+          "entry-encyclopedia",
+          "figure",
+          "graphic",
+          "interview",
           "legal_case",
           "legislation",
           "manuscript",

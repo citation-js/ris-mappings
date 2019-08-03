@@ -250,7 +250,7 @@ const DESC_TO_CSL = {
   },
 
   TA: {
-    'Translated Author': 'author', // switch Author with translator
+    'Translated Author': 'translated_author', // switch Author with original-author
   },
 
   TI: {
@@ -263,7 +263,7 @@ const DESC_TO_CSL = {
   },
 
   TT: {
-    'Translated Title': 'title', // switch Title with original-title
+    'Translated Title': 'translated_title', // switch Title with original-title
   },
 
   UR: {
@@ -337,7 +337,7 @@ const DESC_TO_CSL = {
   },
 
   RI: {
-    'Reviewed Item': 'title', // switch Title with review-title
+    'Reviewed Item': 'reviewed-title',
     'Geographic Coverage': false,
     'Article Number': 'locator',
   },
@@ -443,7 +443,7 @@ const DESC_TO_CSL = {
   },
 
   C4: {
-    Reviewer: 'author', // switch Author with reviewed-author
+    Reviewer: 'reviewer', // switch Author with reviewed-author
     'Dataset(s)': false,
     Genre: false, // not 'genre' :/
     'Custom 4': false,
