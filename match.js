@@ -67,11 +67,9 @@ async function main () {
       }
 
       for (let prop of [].concat(PROPS[tag][desc])) {
-        table.push({
-          tag: [tag],
-          prop: [prop],
-          type: descs[desc].map(type => type.split(' ').pop())
-        })
+        for (let type of descs[desc]) {
+          table.push({ tag: [tag], prop: [prop], type: type.split(' ').slice(-1) })
+        }
       }
     }
   }
