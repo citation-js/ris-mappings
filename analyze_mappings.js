@@ -1,5 +1,5 @@
-const tags = require('./props')
-const mappings = require('./mappings_summary')
+const tags = require('./specs/new/prop_mappings')
+const mappings = require('./specs/new/prop_summary')
 
 function add (d, a, b, c) {
   if (!(a in d)) { d[a] = {} }

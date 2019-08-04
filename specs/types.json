@@ -61,7 +61,7 @@
   "CSL": {
     "graphic": "ART",
     "bill": "BILL",
-    "post-webblog": "BLOG",
+    "post-weblog": "BLOG",
     "book": "BOOK",
     "review-book": "BOOK",
     "legal_case": "CASE",

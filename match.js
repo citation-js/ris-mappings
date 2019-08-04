@@ -1,9 +1,9 @@
 const path = require('path')
 const {readDir, readFile, writeFile, ROOT} = require('./fs_util.js')
 
-const TYPES = require('./types')
-const PROPS = require('./props')
-const MAPPINGS = require('./mappings_summary')
+const TYPES = require('./specs/types')
+const PROPS = require('./specs/new/prop_mappings')
+const MAPPINGS = require('./specs/new/prop_summary')
 
 const RIS_TYPES = Object.keys(TYPES.RIS)
 const CSL_TYPES = Object.keys(TYPES.CSL)
@@ -99,7 +99,7 @@ async function main () {
     return mapping
   }).sort((a, b) => a.source < b.source ? -1 : a.source > b.source ? 1 : 0)
 
-  await writeFile(path.join(ROOT, 'mappings.json'), JSON.stringify(mappingList, null, 2))
+  await writeFile(path.join(ROOT, 'specs', 'new', 'index.json'), JSON.stringify(mappingList, null, 2))
 }
 
 main()

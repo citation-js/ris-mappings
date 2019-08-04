@@ -1,4 +1,4 @@
-import TYPES from './types.json'
+import TYPES from './specs/types.json'
 import DATE from '@citation-js/date'
 
 const ISSN_REGEX = /^\d{4}-\d{4}$/

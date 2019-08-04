@@ -1,7 +1,7 @@
 const path = require('path')
 const {readDir, readFile, writeFile, ROOT} = require('./fs_util.js')
 
-const SHEETS = path.join(ROOT, 'mappings')
+const SHEETS = path.join(ROOT, 'specs', 'new', 'props')
 
 async function main () {
   const sheetNames = await readDir(SHEETS)
@@ -38,7 +38,7 @@ async function main () {
 
   console.log(tags)
 
-  writeFile(path.join(ROOT, 'mappings_summary.json'), JSON.stringify(tags, null, 2))
+  writeFile(path.join(ROOT, 'specs', 'new', 'prop_summary.json'), JSON.stringify(tags, null, 2))
 }
 
 main()
