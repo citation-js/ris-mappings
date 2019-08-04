@@ -4,8 +4,8 @@
   "description": "Contains derived CSL↔RIS mappings data.",
   "type": "module",
   "scripts": {
-    "build": "node summarize_mappings.js && node match.js",
-    "analyze": "node analyze_props.js"
+    "build": "node summarize_props.js && node match.js",
+    "analyze": "node analyze_mappings.js"
   },
   "keywords": [
     "RIS",
