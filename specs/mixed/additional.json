@@ -1,0 +1,12 @@
+[
+  [["T1", "BT"], "title"],
+  ["A1", "author"],
+  ["Y1", "issued"],
+  [["JO", "JF", "J1"], "container-title"],
+  ["JA", "container-title-short"],
+  ["N2", "abstract"],
+  [["SP", "EP"], "page"],
+  ["AV", "archive_location"],
+
+  ["LK", "URL"]
+]
