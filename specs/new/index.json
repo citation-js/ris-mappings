@@ -52,7 +52,8 @@
           "book",
           "map",
           "report",
-          "review-book"
+          "review-book",
+          "webpage"
         ]
       }
     }
@@ -193,6 +194,7 @@
         "type": [
           "book",
           "chapter",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "pamphlet",
@@ -276,6 +278,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -299,7 +302,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -367,6 +371,7 @@
           "book",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -387,7 +392,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -913,6 +919,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -936,7 +943,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1035,6 +1043,7 @@
           "book",
           "broadcast",
           "dataset",
+          "entry",
           "entry-encyclopedia",
           "figure",
           "graphic",
@@ -1055,7 +1064,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1166,6 +1176,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1189,7 +1200,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1269,6 +1281,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1292,7 +1305,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1342,6 +1356,7 @@
           "book",
           "broadcast",
           "chapter",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "graphic",
@@ -1357,7 +1372,8 @@
           "review-book",
           "song",
           "speech",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1494,6 +1510,7 @@
           "book",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "legislation",
@@ -1582,6 +1599,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1605,7 +1623,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1700,6 +1719,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1723,7 +1743,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1801,6 +1822,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -1824,7 +1846,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -1884,6 +1907,7 @@
       "target": {
         "type": [
           "book",
+          "entry",
           "pamphlet",
           "review-book"
         ]
@@ -2028,7 +2052,11 @@
           "ELEC"
         ]
       },
-      "target": false
+      "target": {
+        "type": [
+          "webpage"
+        ]
+      }
     }
   },
   {
@@ -2124,6 +2152,7 @@
           "article-magazine",
           "article-newspaper",
           "book",
+          "entry",
           "entry-dictionary",
           "figure",
           "graphic",
@@ -2164,7 +2193,8 @@
           "broadcast",
           "motion_picture",
           "musical_score",
-          "post-weblog"
+          "post-weblog",
+          "webpage"
         ]
       }
     }
@@ -2245,6 +2275,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -2266,7 +2297,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -2339,7 +2371,8 @@
       },
       "target": {
         "type": [
-          "dataset"
+          "dataset",
+          "entry"
         ]
       }
     }
@@ -2419,6 +2452,7 @@
           "article-magazine",
           "book",
           "chapter",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "interview",
@@ -2515,6 +2549,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -2533,7 +2568,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -2779,7 +2815,11 @@
           "CTLG"
         ]
       },
-      "target": false
+      "target": {
+        "type": [
+          "entry"
+        ]
+      }
     }
   },
   {
@@ -2918,6 +2958,7 @@
         "type": [
           "book",
           "chapter",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "map",
@@ -2926,7 +2967,8 @@
           "post-weblog",
           "review-book",
           "song",
-          "speech"
+          "speech",
+          "webpage"
         ]
       }
     }
@@ -3045,6 +3087,7 @@
           "article-newspaper",
           "bill",
           "chapter",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "interview",
@@ -3183,6 +3226,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "graphic",
@@ -3204,7 +3248,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -3250,11 +3295,13 @@
         "type": [
           "book",
           "broadcast",
+          "entry",
           "manuscript",
           "map",
           "motion_picture",
           "report",
-          "review-book"
+          "review-book",
+          "webpage"
         ]
       }
     }
@@ -3466,6 +3513,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3489,7 +3537,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -3569,6 +3618,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3592,7 +3642,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -3672,6 +3723,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3695,7 +3747,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -3778,6 +3831,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
@@ -3801,7 +3855,8 @@
           "song",
           "speech",
           "thesis",
-          "treaty"
+          "treaty",
+          "webpage"
         ]
       }
     }
@@ -3859,6 +3914,7 @@
           "bill",
           "book",
           "chapter",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "interview",
@@ -4024,6 +4080,7 @@
           "broadcast",
           "chapter",
           "dataset",
+          "entry",
           "entry-dictionary",
           "entry-encyclopedia",
           "figure",
