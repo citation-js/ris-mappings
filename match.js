@@ -106,7 +106,7 @@ main()
 
 function getTargetTypes (sourceTypes) {
   return unique(sourceTypes
-    .map(sourceType => CSL_TYPES.find(targetType => TYPES.CSL[targetType] === sourceType))
+    .flatMap(sourceType => CSL_TYPES.filter(targetType => TYPES.CSL[targetType] === sourceType))
     .filter(Boolean)
     .sort())
 }
