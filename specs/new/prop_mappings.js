@@ -35,9 +35,9 @@ const DESC_TO_CSL = {
   },
 
   CY: {
-    City: false, // TODO archive-place, jurisdiction
+    City: 'publisher-place',
     'Conference Location': 'event-place',
-    'Place Published': false,
+    'Place Published': 'publisher-place',
     Country: false, // TODO jurisdiction
     'Activity Location': false, // TODO jurisdiction?
   },
@@ -398,7 +398,7 @@ const DESC_TO_CSL = {
     Cast: false,
     'Author Affiliation': false,
     Section: 'section',
-    'Place Published': false,
+    'Place Published': 'publisher-place',
     'Time Period': false,
     Term: false,
     'Year Cited': false,
