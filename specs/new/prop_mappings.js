@@ -295,7 +295,7 @@ const DESC_TO_CSL = {
     Institution: false,
     'Name of File': false,
     Producer: 'producer',
-    'Series Director': 'director',
+    'Series Director': false,
     'Secondary Author': false,
     Department: false,
     'Issuing Organization': false,
