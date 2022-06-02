@@ -250,7 +250,7 @@ const DESC_TO_CSL = {
   },
 
   TA: {
-    'Translated Author': 'translated_author', // switch Author with original-author
+    'Translated Author': false,
   },
 
   TI: {
@@ -263,7 +263,7 @@ const DESC_TO_CSL = {
   },
 
   TT: {
-    'Translated Title': 'translated_title', // switch Title with original-title
+    'Translated Title': false,
   },
 
   UR: {
@@ -443,7 +443,7 @@ const DESC_TO_CSL = {
   },
 
   C4: {
-    Reviewer: 'reviewer', // switch Author with reviewed-author
+    Reviewer: false,
     'Dataset(s)': false,
     Genre: false, // not 'genre' :/
     'Custom 4': false,
