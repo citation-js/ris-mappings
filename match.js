@@ -94,7 +94,11 @@ async function main () {
       delete mapping.when
     } else {
       const targetTypes = getTargetTypes(mapping.when.source.TY)
-      mapping.when.target = targetTypes.length ? { type: targetTypes } : false
+      if (!targetTypes.length) {
+        mapping.when.target = false
+      } else if (targetTypes !== NUMBER_OF_CSL_TYPES) {
+        mapping.when.target = { type: targetTypes }
+      }
     }
     return mapping
   }).sort((a, b) => a.source < b.source ? -1 : a.source > b.source ? 1 : 0)
